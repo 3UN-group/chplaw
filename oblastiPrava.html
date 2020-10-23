@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+
+    <div class="bezovyPanel">
+
+    </div>
+
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.png" alt=""></a>
+    </div>
+
+    <div class="navbar navbarNasTim">
+      <a href="nasTim.html">NÁŠ TÍM</a>
+      <a href="oblastiPrava.html">OBLASTI PRÁVA</a>
+      <a href="oNas.html">O NÁS</a>
+      <a href="kontakt.html">KONTAKT</a>
+    </div>
+
+    <div class="mavbar">
+      <a href="index.html"><img src="assets/logo.png" alt=""></a>
+
+      <button type="button" id="menuButton" onclick="otvorOverlay();"> <img src="assets/menis.png" alt=""> </button>
+
+      <div class="overlay" id="picaOverlay">
+        <div class="overlayLinks">
+          <a href="nasTim.html">NÁŠ TÍM</a>
+          <a href="oblastiPrava.html" >OBLASTI PRÁVA</a>
+          <a href="oNas.html">O NÁS</a>
+          <a href="kontakt.html">KONTAKT</a>
+        </div>
+      </div>
+
+      <button type="button" id="closeButton" onclick="zatvorOverlay();">x</button>
+    </div>
+
+    <div class="oblastiContainer">
+      <h2>Oblasti práva</h2>
+      <h3>Naša spoločnosť sa venuje nasledovným oblastiam</h3>
+
+      <div class="buttonContainer">
+        <a href="#obchodneSpolocnosti"><p>Obchodné spoločnosti</p></a>
+        <a href="#akvizicie&fuzie"><p>Akvizície a fúzie</p></a>
+        <a href="#zmluvnePravo"><p>Zmluvné právo</p></a>
+        <a href="#verejneObstaravanie"><p>Verejné obstarávanie</p></a>
+        <a href="#sutaznePravo"><p>Súťažné právo</p></a>
+        <a href="#regulovaneOblasti"><p>Regulované oblasti</p></a>
+        <a href="#pracovnePravo"><p>Pracovné právo</p></a>
+        <a href="#pravoNehnutelnosti"><p>Právo nehnuteľností</p></a>
+        <a href="#dusevneVlastnictvo"><p>Duševné vlastníctvo</p></a>
+        <a href="#riesenieSporov"><p>Riešenie sporov</p></a>
+      </div>
+
+      <div class="oblastPrava" id="obchodneSpolocnosti">
+        <h3>Obchodné spoločnosti</h3>
+
+        <img src="assets/medaile/obchodneSpolocnosti/os2018oranzova.jpg" alt="">
+        <img src="assets/medaile/obchodneSpolocnosti/os2015cierna.jpg" alt="">
+        <img src="assets/medaile/obchodneSpolocnosti/os2014cierna.jpg" alt="">
+        <img src="assets/medaile/obchodneSpolocnosti/os2013oranzova.jpg" alt="">
+        <img src="assets/medaile/obchodneSpolocnosti/os2016oranzova.jpg" alt=""> <br>
+
+
+        <p>
+          Našim klientom poskytujeme poradenstvo pri založení obchodných spoločností,
+          zmenách v ich zakladateľských dokumentoch alebo premene právnej formy,
+          zlúčení či rozdelení existujúcich spoločností.
+          Pripravujeme dohody o riadení projektov v prípade joint venture,
+          zmluvy medzi akcionármi či spoločníkmi alebo zmluvy s osobami v postavení štatutárneho orgánu.
+          Poskytujeme klientom právnu pomoc pri zrušení a likvidácii spoločností.
+          <br><br>
+          Okrem rutinných a bežných vecí poskytujeme našim slovenským aj zahraničným klientom právne služby
+          pri komplikovaných projektoch reštrukturalizácie alebo vstupu na nový trh,
+          ako napríklad odčlenení majetku spoločnosti a prevodoch časti podniku do novozaložených spoločností
+          a pri reorganizácii štruktúry či už slovenských spoločností alebo celej skupiny.
+        </p>
+
+      </div>
+
+      <div class="oblastPrava" id="akvizicie&fuzie">
+        <h3>Akvizície a fuzie</h3>
+
+        <img src="assets/medaile/akvizicie&fuzie/af2013oranzova.jpg" alt="">
+
+        <p>
+          Zastupujeme klientov na strane kupujúcich aj predávajúcich pri nadobudnutí podnikov,
+          častí podnikov, majetku a celých spoločností, pôsobiacich v rôznych oblastiach priemyslu a služieb.
+          Poradenstvo v tejto oblasti zahŕňa internú právnu previerku na strane predávajúceho alebo právnu previerku
+          nadobúdanej spoločnosti či majetku kupujúcim (due diligence), prípravu štruktúry transakcie,
+          vypracovanie transakčných dokumentov a rokovanie o ich podmienkach s protistranou.
+          Do tejto oblasti možno zaradiť aj prípravu verejnej ponuky na kúpu akcií alebo úpravu pomerov
+          spoločníkov na čas po transakcii. Dôsledkom začlenenia novej spoločnosti do skupiny môžu byť
+          skupinové reštrukturalizácie, premeny právnej formy, zlúčenia alebo rozdelenia spoločností.
+          Na poradenstvo v tejto oblasti nadväzuje zastupovanie investora pri oznámení
+          koncentrácie Protimonopolnému úradu Slovenskej republiky.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="zmluvnePravo">
+        <h3>Zmluvné právo</h3>
+
+        <p>
+          Pre našich klientov pripravujeme a pripomienkujeme dôležité obchodné zmluvy.
+          Máme klientov z rôznych oblastí priemyslu a služieb, vrátane automobilového priemyslu,
+          mliekárenstva, veľkoobchodu a maloobchodu, dopravy, stavebníctva, poisťovníctva a poskytovania
+          spotrebiteľských úverov, farmaceutického priemyslu či zdravotníctva. Zmluvné vzťahy, v ktorých
+          im radíme, zahŕňajú okrem iného spotrebiteľské zmluvy, dodávateľsko–odberateľské vzťahy, zmluvy o
+          vývoji a výskume,  prieskumoch trhu, reklame a marketingu.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="verejneObstaravanie">
+        <h3>Verejné obstarávanie</h3>
+
+        <img src="assets/medaile/verejneObstaravanie/vo2014cierna.jpg" alt="">
+        <img src="assets/medaile/verejneObstaravanie/vo2014oranzova.jpg" alt="">
+
+        <p>
+          Verejné obstarávanie, teda proces, pri ktorom štátne a verejné úrady alebo
+          organizácie nakupujú tovar alebo služby od súkromného sektora, sa riadi množstvom
+          zložitých pravidiel. Naša advokátska kancelária poskytuje komplexné právne služby
+          najmä pre uchádzačov v procese verejného obstarávania. Poskytujeme právne služby
+          podnikateľom v rôznych odvetviach (napr. stavebníctvo, projektovanie stavieb, energetika).
+          Naše služby často zahŕňajú objasnenie rôznych otázok v podmienkach súťaže alebo súťažných
+          podkladoch, kontrolu prihlášok z pohľadu formálnych požiadaviek, prípravu a úpravy zmlúv,
+          poradenstvo uchádzačom pri námietkach a odvolaniach v procese verejného obstarávania.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="sutaznePravo">
+        <h3>Súťažné právo</h3>
+
+        <img src="assets/medaile/sutaznePravo/sp2015cierna.jpg" alt="">
+        <img src="assets/medaile/sutaznePravo/sp2016oranzova.jpg" alt="">
+        <img src="assets/medaile/sutaznePravo/sp2018oranzova.jpg" alt="">
+
+        <p>
+          Oblasť súťažného práva zahŕňa poradenstvo a zastupovanie klientov pri
+          oznamovaní koncentrácií Protimonopolnému úradu Slovenskej republiky v prípade
+          nadobudnutia podnikov či spoločností alebo založenia spoločného podniku, ako aj
+          zastupovanie klientov v iných konaniach, napríklad v konaní o možných dohodách
+          obmedzujúcich hospodársku súťaž či zneužívaní dominantného postavenia podnikateľom.
+          Poskytujeme poradenstvo klientom pri posudzovaní ich aktivít ako možných dohôd obmedzujúcich
+          hospodársku súťaž alebo zneužívania dominantného postavenia a zastupujeme klientov v
+          konaniach týkajúcich sa tejto problematiky, vrátane zastupovania klientov, ktorí žiadajú o
+          imunitu v rámci leniency programme (program zhovievavosti. Radíme klientom tiež pri
+          zohľadnení súťažných aspektov v ich distribučných schémach a rámcových zmluvách.
+          V neposlednom rade asistujeme pri príprave a realizácii pravidiel na dodržiavanie
+          súťažného práva a organizujeme školenia a semináre pre našich klientov a ich manažérov.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="regulovaneOblasti">
+        <h3>Regulované oblasti</h3>
+
+        <p>
+          Niektoré odvetvia priemyslu a služieb sú výrazne regulované štátom,
+          prostredníctvom zákonov a podzákonných noriem. Podnikanie v týchto oblastiach
+          vyžaduje splnenie a následné dodržiavanie množstva zákonom stanovených podmienok,
+          poskytovanie pravidelných správ a starostlivú kontrolu dodržiavania štandardov.
+          Poskytujeme právne poradenstvo našim klientom v regulovaných odvetviach v povoľovacích a
+          správnych konaniach, ako aj pri príprave interných pravidiel na zabezpečenie súladu so
+          slovenskými právnymi predpismi.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="pracovnePravo">
+        <h3>Pracovné právo</h3>
+
+        <img src="assets/medaile/pracovnePravo/pp2017oranzova.jpg" alt="">
+        <img src="assets/medaile/pracovnePravo/pp2018oranzova.jpg" alt="">
+
+        <p>
+          Naši klienti sú prevažne aj významnými zamestnávateľmi na Slovensku a s tým
+          súvisí výrazný podiel poskytovania pracovnoprávneho poradenstva na celkovom
+          rozsahu našich služieb. Radíme klientom v rutinných záležitostiach vzniku,
+          zmeny a skončenia pracovnoprávneho vzťahu, ale takisto radíme aj pri riešení
+          pracovnoprávnych otázok v rámci projektových vecí. Tiež vzrastá poradenstvo
+          pri vyslaní zamestnancov do zahraničia a zo zahraničia.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="pravoNehnutelnosti">
+        <h3>Právo nehnuteľností</h3>
+
+        <img src="assets/medaile/pravoNehnutelnosti/pm2014cierne.jpg" alt="">
+
+        <p>
+          Pre našich klientov uskutočňujeme dôkladné právne previerky pri kúpe
+          nehnuteľností a  pripravujeme transakčné dokumenty. Zastupujeme klientov pri
+          projektoch výstavby (greenfield projekty) alebo prestavby nehnuteľností na
+          podnikateľské priestory (brownfield projekty), ako aj pri predaji a kúpe
+          realitných komplexov. Poskytujeme služby prenajímateľom výrobných a kancelárskych
+          priestorov pri tvorbe nájomných zmlúv a rovnako zastupujeme našich klientov,
+          ktorí sú významnými nájomcami nebytových priestorov, pri dohadovaní a správe
+          ich nájomných zmlúv.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="dusevneVlastnictvo">
+        <h3>Duševné vlastníctvo</h3>
+
+        <img src="assets/medaile/dusevneVlastnictvo/dv2017oranzova.jpg" alt="">
+        <img src="assets/medaile/dusevneVlastnictvo/dv2018oranzova.jpg" alt="">
+
+        <p>
+          Dôležitou súčasťou našej práce je poskytovanie poradenstva klientom vo
+          veciach ochranných známok a zastupovanie pred Úradom priemyselného vlastníctva
+          Slovenskej republiky pri zápise  ochranných známok do registra. Naša kancelária
+          získala značné skúsenosti vo veci ochrany práv svojich klientov ako majiteľov
+          ochranných známok zapísaných ako slovenské či  medzinárodné známky,  vrátane
+          zastupovania klientov v súdnych sporoch aj ohľadom nekalej súťaže a náhrady škody.
+
+          Poskytujeme poradenstvo v oblasti práva duševného vlastníctva,
+          vrátane autorského práva a licencií a v oblasti priemyselného vlastníctva.
+          Zastupujeme klientov pri medzinárodných sporoch v tejto oblasti.
+        </p>
+      </div>
+
+      <div class="oblastPrava" id="riesenieSporov">
+        <h3>Riešenie sporov</h3>
+
+        <p>
+          Dôležitou oblasťou našej práce je zastupovanie klientov v rôznych typoch sporov.
+          Zastupujeme celý rad významných klientov pri mediácii a mimosúdnom riešení sporov,
+          ale tiež v súdnych, arbitrážnych, správnych a iných konaniach, keď mimosúdne pokusy o
+          riešenie sporu neboli úspešné. Nadobudli sme množstvo skúseností so zastupovaním klientov
+          v sporoch na všetkých stupňoch súdov, v konaniach pred rôznymi správnymi orgánmi, vrátane
+          preskúmania zákonnosti rozhodnutí správnych orgánov, ako aj v disciplinárnych konaniach v
+          rámci profesných komôr. Sporové veci, v ktorých advokáti našej kancelárie  klientov
+          zastupujú, zahŕňajú prípady od občianskoprávnych sporov alebo vymáhania významnejších
+          pohľadávok až po zložité preukazovanie existencie právnych vzťahov a ochranu záujmov
+          klientov v komplikovane konštruovaných právnych vzťahoch. Zastupujeme klientov v sporoch
+          o ochranu osobnosti a máme bohaté skúsenosti s obhajobou obvinených a zastupovaním
+          poškodených v náročných prípadoch ekonomickej trestnej činnosti.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

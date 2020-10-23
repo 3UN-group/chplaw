@@ -1,0 +1,834 @@
+@font-face {
+  font-family: museo;
+  src: url("Museo 500.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: museo, serif;
+  color: grey;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  display: block;
+  border-bottom: 1px solid grey;
+}
+.hidden {
+  display: none;
+}
+.mobileOnasText {
+  display: none;
+}
+.mobileOnasText a {
+  text-decoration: none;
+  color: black;
+}
+.mobileOnasText a:hover {
+  cursor: pointer;
+}
+.pcOnasText {
+  display: block;
+}
+#bgImage {
+  width: 66vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: fill;
+  z-index: -2;
+}
+#bgImage2 {
+  width: 33.5vw;
+  height: 100vh;
+  object-fit: fill;
+  z-index: -2;
+
+  position: absolute;
+  left: 0;
+}
+#mbgImage {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.page {
+  width: 100%;
+}
+#page1, #page2 {
+  height: 100vh;
+}
+#page3 {
+  overflow: hidden;
+}
+#page4 {
+  overflow: hidden;
+  position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+  body #bgImage {
+    display: none;
+  }
+  body #bgImage2 {
+    display: none;
+  }
+  body #mbgImage {
+    display: block;
+  }
+  body #page2 {
+    height: auto;
+  }
+  body .mobileOnasText {
+    display: block;
+  }
+  body .pcOnasText {
+    display: none;
+  }
+  body .popis {
+    display: none;
+  }
+  body .navbar {
+    display: none;
+  }
+  /* body .pcJazyky {
+    display: none;
+  } */
+  body .logo {
+    display: none;
+  }
+  body .bezovyPanel {
+    display: none;
+  }
+  body .onasText {
+    width: 90vw;
+    font-size: 4vw;
+    left: 5vw;
+    text-align: justify;
+    margin-top: 10vh;
+  }
+  body .onasText h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .medzeraNapravo {
+    margin: 0;
+  }
+  body .skupina {
+    width: 90vw;
+    left: 5%;
+  }
+  body .skupina h1 {
+    font-size: 6vw;
+    margin-bottom: 5%;
+  }
+
+  body .oblastiContainer {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 30%;
+  }
+  body .oblastiContainer div {
+    margin-bottom: 5%;
+  }
+  body .oblastiContainer h1 {
+    font-size: 6vw;
+  }
+  body .oblastiContainer h3 {
+    font-size: 3.5vw;
+  }
+  body .oblastiContainer .buttonContainer a {
+    width: 44vw;
+    font-size: 3.5vw;
+    margin-bottom: 5%;
+  }
+  body .oblastiContainer .oblastPrava img {
+    width: 15vw;
+  }
+  body .oblastiContainer .oblastiScroll {
+    margin-top: 5%;
+  }
+  body .oblastiContainer .oblastPrava h3{
+    font-size: 4.5vw;
+    margin-top: 0;
+  }
+  body .oblastiContainer .oblastPrava p{
+    font-size: 4vw;
+  }
+
+  body .onasContainer {
+    width: 90vw;
+    left: 5%;
+  }
+  body .onasContainer h1 {
+    font-size: 5vw;
+    margin-bottom: 4%;
+  }
+  body .onasContainer p {
+    font-size: 2.7vw;
+  }
+  body .onasContainer img {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  body .kontaktContainer {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 0;
+    top: 10vh;
+  }
+  body .kontaktContainer h1{
+    font-size: 6vw;
+    margin-bottom: 5vh;
+  }
+  body .kontaktContainer .mapContainer {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+  }
+  body .paticka{
+    width: 90vw;
+    margin-left: 3vh;
+    top: 0;
+    left: 0;
+    font-size: 4vw;
+  }
+  body .paticka p{
+    font-size: 4vw;
+  }
+  body .paticka a {
+    font-size: 4vw;
+    margin-left: 10%;
+  }
+}
+
+
+.logo {
+  position: fixed;
+  left: 10%;
+  top: 5%;
+  z-index: 4;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.mavbar {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: #d1d1c6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.mavbar #mLogo {
+  height: 3vh;
+  display: block;
+}
+.mavbar #mLogo:hover {
+  cursor: pointer;
+}
+.mavbar #menuButton {
+  background: none;
+  border: none;
+  height: 5vh;
+
+  margin-left: 35%;
+}
+.mavbar #menuButton img {
+  height: 100%;
+  object-fit: fill;
+}
+.mavbar #closeButton {
+  font-size: 10vw;
+  display: none;
+  z-index: 8;
+  color: white;
+  position: absolute;
+  right: 11%;
+  top: 9%;
+  background: none;
+  border: none;
+}
+.overlay {
+  width: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  overflow: hidden;
+
+  z-index: 7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s;
+}
+.overlayLinks {
+  display: block;
+  position: relative;
+  width: 60vw;
+
+  z-index: 7;
+}
+.overlayLinks button {
+  position: relative;
+  display: block;
+  width: 60vw;
+  text-align: center;
+  color: white;
+  font-size: 7vw;
+  margin-bottom: 15%;
+  background: none;
+  border: none;
+
+  z-index: 7;
+}
+.overlayLinks button span {
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 4%;
+  right: 7%;
+
+  background: white;
+  overflow: hidden;
+  z-index: 3;
+
+  transition-delay: 0s;
+  transition: 0.5s;
+}
+.navbar button {
+  display: block;
+  height: 6vh;
+
+  margin-right: 4vw;
+
+  background: none;
+  border: none;
+  font-size: 1.3vw;
+  text-align: center;
+  text-decoration: none;
+  line-height: 6vh;
+
+  float: left;
+}
+#sukinsyn {
+  margin-right: 10vw;
+}
+.navbar button:hover {
+  cursor: pointer;
+}
+.navbarNasTim {
+  background: none;
+}
+.pcJazyky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  position: fixed;
+  right: 8%;
+  top: 4%;
+
+  z-index: 5;
+
+  height: 6vh;
+}
+.pcJazyky img {
+  display: block;
+
+  width: 3vw;
+  height: auto;
+
+  margin-left: 10%;
+}
+.pcJazyky img:hover {
+  cursor: pointer;
+}
+
+.mobilJazyky {
+  display: none;
+  position: absolute;
+  left: 44%;
+  top: 3%;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mobilJazyky img {
+  width: 12vw;
+  height: auto;
+  margin-bottom: 4vh;
+}
+
+.paticka {
+  width: 60vw;
+  height: 10vh;
+  background: #d1d1c6;
+  margin-left: 20vw;
+  margin-top: 20vh;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.paticka p {
+  display: block;
+  color: white;
+  font-size: 1vw;
+}
+.paticka a {
+  display: block;
+  font-size: 1vw;
+  margin-left: 30%;
+}
+
+.popis {
+  width: 50vw;
+
+  position: absolute;
+  left: 10%;
+  top: 30%;
+
+  font-size: 1.3vw;
+}
+.popis a {
+  text-decoration: none;
+  color: black;
+}
+.popis a:hover {
+  cursor: pointer;
+}
+.bezovyPanel {
+  display: block;
+  width: 100%;
+  height: 15vh;
+  background: #d1d1c6;
+  position: fixed;
+  top: -15%;
+  left: 0;
+  z-index: 3;
+
+  transition: 0.5s;
+}
+
+.onasText {
+  display: block;
+  width: 70vw;
+
+  position: relative;
+  left: 20%;
+  top: 10%;
+
+  font-size: 1.2vw;
+  text-align: right;
+}
+.onasText h1 {
+  display: inline-block;
+  margin-bottom: 2%;
+  width: 62%;
+  text-align: right;
+}
+
+
+
+
+
+
+.skupina {
+  position: relative;
+  left: 20%;
+  width: 60vw;
+  float: left;
+  margin-top: 5vh;
+}
+.skupina h1 {
+  font-size: 2vw;
+  margin-bottom: 3%;
+}
+#partneri {
+  margin-top: 15vh;
+}
+
+.ludiaContainer {
+  width: 100%;
+}
+.ludo {
+  display: block;
+  width: 48%;
+  height: 25vh;
+  float: left;
+  background: white;
+  margin-bottom: 4%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.medzeraNapravo {
+  margin-right: 4%;
+}
+.ludo .quiestce {
+  width: 70%;
+  height: 100%;
+  float: left;
+  padding: 3%;
+}
+.ludo .quiestce .nadpisLuda h3 {
+  display: block;
+  height: 50%;
+  font-size: 1.8vw;
+}
+.ludo .quiestce p {
+  display: block;
+  height: 50%;
+  width: 100%;
+  font-size: 0.8vw;
+  margin-top: 4%;
+}
+
+.ludo .leftPanel {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.ludo .leftPanel img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ludo .nadpisLuda {
+  width: 100%;
+}
+.ludo .miniButtony {
+  height: 100%;
+  float: right;
+}
+.ludo .miniButtony img {
+  height: 5vh;
+  width: auto;
+  object-fit: cover;
+}
+.miniButtony img:hover {
+  cursor: pointer;
+}
+
+.bigLudo {
+  width: 100%;
+  height: auto;
+}
+.bigLudo .leftPanel {
+  width: 20%;
+  height: 100%;
+}
+.bigLudo .leftPanel img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.bigLudo .bengoroKontakt {
+  display: block;
+  width: 100%;
+  padding: 3%;
+  font-size: 1.1vw;
+}
+.bigLudo .quiestce {
+  width: 80%;
+  font-size: 1.2vw;
+}
+.bigLudo .miniButtony {
+  display: block;
+}
+.bigLudo .quiestce p {
+  height: 80%;
+  font-size: 1.1vw;
+}
+.bigLudo .nadpisLuda {
+  display: block;
+  height: 10vh;
+}
+.bigLudo .nadpisLuda h3 {
+  display: block;
+  height: 100%;
+  float: left;
+  border: none;
+}
+
+.mobigLudo {
+  width: 90vw;
+  height: 90vh;
+  z-index: 2;
+
+  overflow: hidden;
+
+  position: fixed;
+
+  top: 10%;
+  left: 5%;
+
+  display: none;
+}
+.mobigLudo .nadpisPanel {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  border-bottom: 1px solid grey;
+}
+.mobigLudo .nadpisPanel h3 {
+  display: block;
+  width: 80%;
+
+  font-size: 6vw;
+}
+.mobigLudo .quiestce {
+  width: 100%;
+  height: 90%;
+
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+
+  padding-bottom: 10%;
+
+  z-index: 2;
+
+  text-align: justify;
+
+  position: relative;
+}
+.mobigLudo .quiestce img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  z-index: 2;
+
+  margin-bottom: 3%;
+
+  position: relative;
+}
+.mobigLudo .miniButtony img {
+  width: 7vw;
+  height: auto;
+}
+.mobigLudo .quiestce p {
+  font-size: 5vw;
+}
+
+
+.normLudo {
+  width: 48%;
+  height: 25vh;
+}
+.normLudo .quiestce {
+  width: 60%;
+}
+.normLudo .quiestce h3 {
+  height: 50%;
+  border-bottom: 1px solid grey;
+}
+.normLudo .nadpisLuda h3:hover {
+  cursor: pointer;
+}
+.normLudo .quiestce p {
+  height: 50%;
+}
+.normLudo img {
+  width: 40%;
+  height: 100%;
+}
+.normLudo img:hover {
+  cursor: pointer;
+}
+
+.mobileLudo {
+  width: 48%;
+  height: 35vh;
+}
+.mobileLudo .leftPanel {
+  width: 100%;
+  height: 80%;
+}
+.mobileLudo .quiestce {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobileLudo .bengoroKontakt {
+  font-size: 1.2vw;
+}
+.mobileLudo img {
+  width: 100%;
+  height: 80%;
+}
+.mobileLudo .quiestce .nadpisLuda h3 {
+  border: none;
+  font-size: 4vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+
+  border-bottom: 1px solid grey;
+}
+.mobileLudo .quiestce p {
+  font-size: 2rem;
+  display: none;
+}
+.mobileLudo .miniButtony {
+  display: none;
+}
+
+
+.oblastiContainer {
+  margin-left: 20vw;
+  margin-top: 10vh;
+  display: block;
+  width: 60vw;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10vh;
+}
+.oblastiContainer h1 {
+  font-size: 2vw;
+  margin-bottom: 3%;
+}
+.oblastiContainer h3 {
+  font-size: 1.2vw;
+  margin-bottom: 2%;
+}
+.buttonContainer {
+  overflow: hidden;
+}
+.buttonContainer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: white;
+  font-size: 1.1vw;
+  border: none;
+  width: 14vw;
+  height: 5vh;
+  margin: 0 1% 1% 0;
+  float: left;
+  border-radius: 3px;
+  border-bottom: 2px solid black;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: 0.3s;
+}
+.buttonContainer a:hover {
+  cursor: pointer;
+}
+.oblastiScroll {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.oblastPrava {
+  width: 100%;
+  margin-top: 5vh;
+  display: none;
+}
+.oblastPrava img {
+  display: block;
+  float: left;
+  width: 6vw;
+  height: auto;
+  object-fit: cover;
+  margin-right: 3%;
+}
+.oblastPrava h3 {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 1.5vw;
+  margin-bottom: 3%;
+}
+.oblastPrava p {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+  font-size: 1vw;
+}
+
+.onasContainer {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60vw;
+}
+.onasContainer h1 {
+  font-size: 2vw;
+  margin-bottom: 1%;
+}
+.onasContainer p{
+  font-size: 1vw;
+}
+.onasContainer img {
+  float: left;
+  margin: 0 1% 1% 0;
+  width: 40vw;
+  height: auto;
+}
+
+.kontaktContainer {
+  display: block;
+  width: 60vw;
+  margin-left: 20vw;
+  position: relative;
+  top: 10vh;
+}
+.kontaktContainer h1 {
+  font-size: 2vw;
+}
+.kontaktContainer * {
+  margin-bottom: 2%;
+}
+.mapContainer {
+  display: block;
+  width: 100%;
+  height: 40vh;
+  border: 10px solid #d1d1c6;
+}

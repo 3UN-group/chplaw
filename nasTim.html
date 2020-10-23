@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <div class="bezovyPanel">
+
+    </div>
+
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.png" alt=""></a>
+    </div>
+
+    <div class="navbar navbarNasTim">
+      <a href="nasTim.html">NÁŠ TÍM</a>
+      <a href="oblastiPrava.html">OBLASTI PRÁVA</a>
+      <a href="oNas.html">O NÁS</a>
+      <a href="kontakt.html">KONTAKT</a>
+    </div>
+
+    <div class="bezovyPanel">
+
+    </div>
+
+    <div class="mavbar">
+      <a href="index.html"><img src="assets/logo.png" alt=""></a>
+
+      <button type="button" id="menuButton" onclick="otvorOverlay();"> <img src="assets/menis.png" alt=""> </button>
+
+      <div class="overlay" id="picaOverlay">
+        <div class="overlayLinks">
+          <a href="nasTim.html">NÁŠ TÍM</a>
+          <a href="oblastiPrava.html">OBLASTI PRÁVA</a>
+          <a href="oNas.html">O NÁS</a>
+          <a href="kontakt.html">KONTAKT</a>
+        </div>
+      </div>
+
+      <button type="button" id="closeButton" onclick="zatvorOverlay();">x</button>
+    </div>
+
+    <div class="skupina" id="partneri">
+      <h2>Partneri</h2>
+
+      <div class="ludiaContainer" id="partneriContainer">
+        <div class="ludo parne" id="cernejova">
+          <img src="assets/cernejova.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('cernejova');">Alena <br>
+                ČERNEJOVÁ</h3>
+            <p>Alena Černejová vedie projekty v oblasti akvizícií a predajov podnikov a spoločností.
+              Ako vedúca tímu poskytovala...
+
+              <span class="hidden">
+                poradenstvo zahraničným investorom pri vstupe na slovenský trh v súvislosti
+                s množstvom projektov a transakcií, vrátane akvizícií podnikov a spoločností, privatizácií,
+                reštrukturalizácií spoločností a skupín, významných greenfield projektov, ako aj projektov
+                nadobudnutia a správy nehnuteľností. Alena poskytuje poradenstvo a zastupuje klientov v
+                súvislosti s oznamovaním koncentrácií Protimonopolnému úradu Slovenskej republiky a v
+                iných konaniach pred Protimonopolným úradom Slovenskej republiky.
+                <br><br>
+                Alena absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+                V rokoch 1984 až 1995 pôsobila ako vedecký pracovník Ústavu štátu a práva
+                Slovenskej akadémie vied, v roku 1994 získala vedeckú hodnosť kandidáta právnych
+                vied (CSc.) na základe obhajoby práce z oblasti súťažného práva. V roku 1992 bola
+                zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+                V rokoch 1991 až 1995 sa Alena zúčastnila viacerých zahraničných
+                seminárov a stáží na prestížnych univerzitách a v renomovaných právnych
+                kanceláriách. V roku 1997 sa Alena stala partnerom advokátskej kancelárie,
+                ktorá sa premenovala na ČERNEJOVÁ & HRBEK.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('cernejova');">
+          </div>
+        </div>
+
+        <div class="ludo" id="hrbek">
+          <img src="assets/hrbek.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('hrbek');">Milan <br>
+                HRBEK</h3>
+            <p>
+              Milan Hrbek je zakladajúcim partnerom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+              Cenné skúsenosti nadobudol Milan zastupovaním klientov pri množstve transakcií a projektov,
+
+              <span class="hidden">
+                vrátane transakcií s cennými
+                papiermi, akvizícií podnikov a spoločností, privatizácií, reštrukturalizácii dlhov spoločností
+                a projektov týkajúcich sa nehnuteľností. Milan zastupuje klientov v oblasti mimosúdneho
+                riešenia sporov a mediácie medzi sporovými stranami. Zároveň je vyhľadávaným odborníkom na
+                vedenie sporov vo všetkých typoch konaní, teda v súdnych, správnych a rozhodcovských konaniach,
+                ale aj v disciplinárnych konaniach v rámci profesných komôr. V týchto sporoch často ide o riešenie
+                závažných právnych otázok so zásadným významom pre smerovanie aplikačnej praxe v konkrétnych
+                právnych vzťahoch.
+                <br><br>
+                Milan absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+                Po skončení štúdia pracoval na Okresnej prokuratúre Bratislava II, v roku 1991 sa stal okresným
+                prokurátorom pre okres Bratislava II. V roku 1992 začal vykonávať súkromnú prax ako zakladajúci
+                partner advokátskej kancelárie, ktorá od roku 1997 pôsobí pod menom ČERNEJOVÁ & HRBEK.
+                <br><br>
+                Počas roku 2006 bol Milan členom Legislatívnej rady vlády Slovenskej republiky.
+                Jedno volebné obdobie (2004 – 2007) bol členom disciplinárneho senátu Najvyššieho súdu
+                Slovenskej republiky a v roku 2010 bol zvolený do disciplinárnej komisie Slovenskej advokátskej
+                komory a menovaný za predsedu disciplinárneho senátu.
+                <br><br>
+                Milan si postupne získal a upevnil reputáciu ako procesný právnik, ktorý zastupuje klientov
+                pri zložitých a závažných sporoch. O dôvere klientov v jeho schopnosti pri riešení sporov
+                svedčia aj jeho výnimočné hodnotenia nezávislými hodnotiteľmi v medzinárodných publikáciách.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('hrbek');">
+          </div>
+        </div>
+
+        <div class="ludo parne" id="stavrovsky">
+          <img src="assets/stavrovsky.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('stavrovsky');">Peter <br>
+                STAVROVSKÝ</h3>
+            <p>
+              Peter Stavrovský poskytuje poradenstvo klientom predovšetkým v oblasti nadobúdania,
+              prevodu a nájmu nehnuteľností,
+
+              <span class="hidden">
+                viedol viacero významných greenfield a brownfield
+                projektov výstavby a rozširovania výrobných, logistických a servisno-administratívnych
+                centier, tiež viedol viacero projektov akvizícií slovenských spoločností investormi. Peter
+                sa intenzívne zaoberá tiež právom duševného vlastníctva, klientom poskytuje pravidelne
+                poradenstvo v oblasti autorského práva, práva IT či ochranných známok, vrátane registrácie
+                a ochrany ochranných známok, a zastupuje klientov aj v oblasti nekalosúťažného konania a v
+                sporoch v tejto oblasti. Peter tiež radí klientom pri vyhodnocovaní ich zmluvných ujednaní
+                ako dohôd potenciálne obmedzujúcich súťaž a zastupuje klientov v konaniach pred Protimonopolným
+                úradom Slovenskej republiky v tejto oblasti súťažného práva.
+                <br><br>
+                Peter absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1983.
+                V období rokov 1983 až 1986 pracoval na Okresnom súde v Bratislave ako súdny čakateľ, neskôr
+                ako sudca. V rokoch 1987 až 1995 pracoval ako právny špecialista na Právnom inštitúte Ministerstva
+                spravodlivosti, od roku 1993 bol riaditeľom úseku právnych informácií. V rokoch 1995 až 1997
+                pôsobil na Inštitúte pre aproximáciu práva pri Úrade vlády Slovenskej republiky ako zástupca
+                riaditeľa a neskôr ako riaditeľ. V roku 1997 sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+                <br><br>
+                Peter je dlhoročným členom redakčnej rady časopisu Justičná revue a publikoval množstvo článkov
+                v tomto odbornom časopise. Peter je aj spoluautorom kapitoly venovanej Slovenskej republike v
+                publikácii World Trademark Review – Anti-counterfeiting 2010 (Globe Business Publishing Ltd., 2010).
+                V publikácii World Trademark Revue je dlhoročne hodnotený ako odporúčaný odborník v Slovenskej
+                republike pre oblasť práva duševného vlastníctva a ochranných známok.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('stavrovsky');">
+          </div>
+        </div>
+
+        <div class="ludo" id="sinkovic">
+          <img src="assets/sinkovic.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('sinkovic');">Ján <br>
+                ŠINKOVIC</h3>
+            <p>
+              Ján Šinkovic poskytuje klientom poradenstvo predovšetkým v oblasti sporovej agendy,
+              no tak isto pri nadobudnutiach, prevodoch a prenájmoch nehnuteľností.
+
+              <span class="hidden">
+                Ján poskytuje vysoko odborné poradenstvo a zastupuje slovenských ako aj
+                zahraničných klientov v mnohých závažných súdnych sporoch pred všeobecnými
+                súdmi Slovenskej republiky, rozhodcovskými súdmi, tak isto pred Ústavným súdom SR,
+                pred Európskym súdom pre ľudské práva v Štrasburgu, a v neposlednom rade pred
+                disciplinárnymi orgánmi, regulujúcimi činnosť rôznych právnických profesií (notárov, sudcov).
+                <br><br>
+                Ján absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1998.
+                V tom istom roku sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK. Po tom, ako bol v
+                roku 2001 zapísaný do zoznamu advokátov Slovenskou advokátskou komorou, sa stal asociovaným
+                advokátom a v roku 2008 partnerom v Advokátskej kancelárii ČERNEJOVÁ & HRBEK. V roku 2016 bol
+                zapísaný do zoznamu rozhodcov Rozhodcovského súdu Slovenskej advokátskej komory.
+                <br><br>
+                Ján nadobudol značné skúsenosti v oblasti sporovej agendy pri uplatňovaní rôznych nárokov
+                na slovenských súdoch, týkajúcich sa občianskoprávnych vzťahov (napríklad práva zo zmeniek,
+                spotrebiteľské práva, ochrana osobnosti, spory súvisiace s nehnuteľnosťami, spory medzi
+                spoluvlastníkmi), obchodnoprávnych vzťahov (napríklad spory medzi spoločníkmi, medzi akcionármi,
+                medzi zmluvnými stranami, nároky na náhradu škody), sporov z verejného obstarávania, a mnoho
+                ďalších právnych vzťahov.
+                <br><br>
+                Ján je autorom kapitoly venovanej Slovenskej republike v publikácii Právna úprava nákladov
+                súdneho konania platná v rôznych štátoch sveta (Lovells, 2010). V súčasnosti pôsobí ako
+                člen pracovnej skupiny pre občianske právo v Slovenskej advokátskej komore.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('sinkovic');">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skupina" id="asociovani">
+      <h2>Asociovaní advokáti</h2>
+
+      <div class="ludiaContainer" id="asociovaniContainer">
+        <div class="ludo parne" id="bezekova">
+          <img src="assets/bezekova.jpg" alt="">
+
+          <div class="quiestce">
+              <h3 onclick="ujebTomu('bezekova');">Jana <br>
+                  BEZEKOVÁ</h3>
+              <p>
+                Jana Bezeková poskytuje klientom každodenné poradenstvo najmä v oblasti obchodného a
+                pracovného práva.
+
+              <span class="hidden">
+                  Ako členka tímu sa podieľala na viacerých projektoch a transakciách, vrátane právnych previerok,
+                  akvizícií a fúzií spoločností a nájmu nehnuteľností. Venuje sa tiež právnemu poradenstvu v
+                  oblasti reklamy, ochrany osobných údajov a ochrany spotrebiteľa.
+                  <br><br>
+                  Jana absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 2002
+                  a v tom istom roku nastúpila do Advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátska
+                  koncipientka. V roku 2005 bola zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+                  Od roku 2006 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako asociovaná advokátka.
+                  Medzinárodné skúsenosti získala počas stáže v roku 2009 v Advokátskej kancelárii Lachaud
+                  Lepany Mandeville, Paríž, Francúzsko.
+                  <br><br>
+                  Jana je spoločne s ďalšími advokátkami pôsobiacimi v kancelárii spoluautorkou publikácie
+                  Akciová spoločnosť, jej organizačné a finančné riadenie (Verlag Dashöfer, Bratislava, 2004, 2005).
+                </span>
+              </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('bezekova');">
+          </div>
+        </div>
+
+        <div class="ludo" id="dziak">
+          <img src="assets/dziak.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('dziak');">Juraj
+                DZIAK</h3>
+            <p>
+              Juraj Dziak poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva
+              a práva obchodných spoločností.
+
+              <span class="hidden">
+                Okrem toho Juraj aktívne zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                Podieľal sa ako člen tímu aj na viacerých projektoch.
+                <br><br>
+                Juraj absolvoval štúdium práva na Právnickej fakulte Trnavskej univerzity a v roku 2011
+                nastúpil do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+                Po vykonaní advokátskych skúšok a zápise do zoznamu advokátov Slovenskou advokátskou
+                komorou v roku 2015 pôsobí Juraj v advokátskej kancelárii ČERNEJOVÁ a HRBEK ako asociovaný advokát.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('dziak');">
+          </div>
+        </div>
+
+        <div class="ludo parne" id="kapitulcinova">
+          <img src="assets/kapitulcinova.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('kapitulcinova');">Tatiana <br>
+                Kapitulčínová</h3>
+            <p>
+              Tatiana Kapitulčínová poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva a
+              práva obchodných spoločností.
+
+              <span class="hidden">
+                Okrem toho Tatiana zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                Tatiana absolvovala štúdium práva na Právnickej fakulte Univerzity Komenského v Bratislave.
+                Počas štúdia Tatiana praxovala štyri roky v advokátskych kanceláriách ako právna asistentka a v
+                roku 2017 nastúpila do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('kapitulcinova');">
+          </div>
+        </div>
+
+        <div class="ludo" id="zahradnik">
+          <img src="assets/zahradnik.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('zahradnik');">Tomáš <br>
+                Zahradnik</h3>
+            <p>
+              Tomáš Zahradnik poskytuje klientom právne poradenstvo primárne v oblasti obchodného a
+              civilného práva, venuje sa však aj trestno-právnej problematike.
+
+              <span class="hidden">
+                Zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                Štúdium na Právnickej fakulte Univerzity Komenského v Bratislave ukončil v roku 2016 a
+                od roku 2017 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('zahradnik');">
+          </div>
+        </div>
+
+        <div class="ludo parne" id="vincze">
+          <img src="assets/vincze.jpg" alt="">
+
+          <div class="quiestce">
+            <h3 onclick="ujebTomu('vincze');">Jana <br>
+                VINCZE</h3>
+            <p>
+              Jana Vincze je vedúcou kancelárie a koordinuje všetky administratívne funkcie kancelárie.
+
+              <span class="hidden">
+                Má na starosti riešenie všetkých otázok týkajúcich sa chodu kancelárie a je miestom prvého
+                kontaktu pre poskytovanie informácií o našej advokátskej kancelárii.
+                Jana nastúpila do Advokátskej
+                kancelárie ČERNEJOVÁ & HRBEK na pozíciu advokátskej tajomníčky po ukončení obchodnej akadémie v
+                roku 1997. Postupne pracovala na všetkých administratívnych postoch v kancelárii a od roku 2001
+                je vedúcou kancelárie a manažérom jej administratívnych zložiek. V roku 2009 Jana úspešne
+                absolvovala štúdium na Slovenskej technickej univerzite a bol jej udelený titul inžinier.
+              </span>
+            </p>
+          </div>
+
+          <div class="bengoroKontakt">
+            ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava <br>
+            <br><br>
+
+            Tel: <br>
+            (421 2) 5244 4019 5245 1525 <br>
+            Fax: <br>
+            (421 2) 5244 2650
+          </div>
+
+          <div class="miniButtony">
+            <img src="assets/mail.png"  id="mailButton" alt="">
+            <img src="assets/minimize.png" id="minimizeButton" alt="" onclick="odjebTomu('vincze');">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

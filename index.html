@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="sk" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>ČERNEJOVÁ & HRBEK  Advokátska kancelária</title>
+    <meta name="description" content="Advokátska kancelária ČERNEJOVÁ & HRBEK je spoľahlivým
+nezávislým slovenským poradcom pre významných zahraničných
+a slovenských klientov a medzinárodné právne firmy už takmer
+30 rokov. Svojim klientom poskytuje špecializované právne
+poradenstvo pri zložitých transakciách a rovnako
+kvalifikovane im radí aj pri ich každodennom podnikaní
+a zastupuje ich pri riešení sporov.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="logo">
+      <a onclick="scrollni('#page1')"><img src="assets/logo.png" alt="logo"></a>
+    </div>
+
+    <div class="bezovyPanel" id="bezovyPanel">
+
+    </div>
+
+    <div class="navbar" id="navbar">
+      <button type="button" onclick="scrollni('#page2');">
+        <span lang="sk"> O NÁS </span>
+        <span lang="en"> ABOUT US </span>
+      </button>
+      <button type="button" onclick="scrollni('#page3');">
+        <span lang="sk"> NÁŠ TÍM </span>
+        <span lang="en"> TEAM </span>
+      </button>
+      <button type="button" onclick="scrollni('#page4');">
+        <span lang="sk"> OBLASTI PRÁVA </span>
+        <span lang="en"> PRACTICE AREAS </span>
+      </button>
+      <button type="button" onclick="scrollni('#page5');" id="sukinsyn">
+        <span lang="sk"> KONTAKT </span>
+        <span lang="en"> CONTACT </span>
+      </button>
+    </div>
+
+    <div class="pcJazyky">
+      <img alt="slovencina tlacitko" onclick="slovencina()" class="slovencinaButton">
+      <img alt="anglictina tlacitko" onclick="anglictina()" class="anglictinaButton">
+    </div>
+
+    <div class="mavbar">
+      <a onclick="scrollni('#page1')"><img id="mLogo" src="assets/logo.png" alt="mobilne logo"></a>
+
+      <button type="button" id="menuButton" onclick="otvorOverlay();"><img src="assets/picakolada.png" alt="mobilne menu tlacitko"></button>
+
+      <div class="overlay" id="picaOverlay">
+        <div class="mobilJazyky" id="mobilJazyky">
+          <img alt="slovencina tlacitko" onclick="slovencina()" class="slovencinaButton">
+          <img alt="anglictina tlacitko" onclick="anglictina()" class="anglictinaButton">
+        </div>
+
+        <div class="overlayLinks" id="picaOverlayLinks">
+          <button type="button" onclick="scrollni('#page2');">
+            <span lang="sk"> O NÁS </span>
+            <span lang="en"> ABOUT US </span>
+          </button>
+          <button type="button" onclick="scrollni('#page3');">
+            <span lang="sk"> NÁŠ TÍM </span>
+            <span lang="en"> TEAM </span>
+          </button>
+          <button type="button" onclick="scrollni('#page4');">
+            <span lang="sk"> OBLASTI PRÁVA </span>
+            <span lang="en"> PRACTICE AREAS </span>
+          </button>
+          <button type="button" onclick="scrollni('#page5');">
+            <span lang="sk"> KONTAKT </span>
+            <span lang="en"> CONTACT </span>
+          </button>
+        </div>
+      </div>
+
+      <button type="button" id="closeButton" onclick="zatvorOverlay();">x</button>
+    </div>
+
+    <div class="page" id="page1">
+      <img src="assets/hrat.jpg" alt="hrad pozadie" id="mbgImage">
+      <img src="assets/triangel1.png" alt="trojuholnik pozadie" id="bgImage">
+
+      <div class="popis">
+        <span lang="sk">
+          Advokátska kancelária ČERNEJOVÁ & HRBEK je spoľahlivým <br>
+          nezávislým slovenským poradcom pre významných zahraničných <br>
+          a slovenských klientov a medzinárodné právne firmy už takmer <br>
+          30 rokov. Svojim klientom poskytuje špecializované právne <br>
+          poradenstvo pri zložitých transakciách a rovnako <br>
+          kvalifikovane im radí aj pri ich každodennom podnikaní <br>
+          a zastupuje ich pri riešení sporov. Naša kancelária <br>
+          združuje skúsených advokátov, ktorí pracujú ako tím <br>
+          so spoločným cieľom: poskytnúť našim klientom <br>
+          právne služby na vysokej odbornej úrovni, <br>
+          ale zároveň s osobným a individuálnym  <br>
+          prístupom. <a onclick="scrollni('#page2')">Čítať ďalej...</a>
+        </span>
+
+        <span lang="en">
+          ČERNEJOVÁ & HRBEK law firm has a reputation of a <br>
+          reliable advisor for major international and Slovak <br>
+          clients and international law firms for almost 30 years. <br>
+          We provide to our clients highly specialized legal <br>
+          advice on complex transactions, but also competently <br>
+          advise them on their daily business matters <br>
+          and represent them in resolving disputes. <br>
+          Attorneys of our firm work together as <br>
+          a team with a common goal: to provide <br>
+          legal services to our clients on a <br>
+          high professional level, but still <br>
+          with personal and individual <br>
+          approach. <a onclick="scrollni('#page2')">Read more...</a>
+        </span>
+      </div>
+    </div>
+
+    <div class="page" id="page2">
+      <img src="assets/triangel22.png" alt="triangel 2 pozadie" id="bgImage2">
+
+      <div class="onasText">
+        <h1>
+          <span lang="sk"> O nás </span>
+          <span lang="en"> About us </span>
+        </h1>
+        <p>
+          <span class="pcOnasText">
+            <span lang="sk">
+              Advokátska kancelária ČERNEJOVÁ & HRBEK poskytuje služby svojim klientom od <br>
+              roku 1992. Nestaviame iba na svojej tradícii, ale pokračujeme v každodennej snahe <br>
+              o neustály odborný rast a vzdelávanie a tiež o čo najlepšie využitie našich skúseností <br>
+              v prospech našich klientov.
+              <br><br>
+              Za svoje pôsobenie sme si získali nielen uznanie odbornej obce a našich kolegov, ale aj <br>
+              dôveru mnohých klientov, dôkazom čoho je, že naše služby využívajú nepretržite už mnoho <br>
+              rokov. Hodnoteniu našej práce klientmi vďačíme za to, že sa pravidelne umiestňujeme na <br>
+              popredných priečkach v prehľadoch advokátskych kancelárií pôsobiacich na Slovensku, ktoré <br>
+              pripravujú špecializované agentúry práve na základe podkladov od klientov. Napríklad publikácie <br>
+              Chambers Global a Chambers Europe pravidelne zaraďujú našu kanceláriu
+              medzi popredné slovenské <br> kancelárie v oblasti akvizícii a fúzií a dlhoročne sme v tejto
+              publikácii vyhodnotení ako „top ranked“ <br> kancelária na Slovensku pre oblasť riešenia sporov.
+              Ďalšia svetová publikácia World Trademark Revue <br> zaraďuje opakovane našu kanceláriu medzi
+              vedúcich expertov („leading experts“) v Slovenskej republike <br> pre oblasť práva duševného
+              vlastníctva a ochranných známok. Od roku 2013 sa v Slovenskej republike <br> hodnotia advokátske
+              kancelárie v rámci projektu Právnická firma roka a naša kancelária je každoročne <br> zaradená vo
+              vybraných oblastiach ako veľmi odporúčaná, prípadne odporúčaná kancelária.
+              <br><br>
+              Vsádzame na odbornosť a skúsenosť. Poznatky, ktoré sme nadobudli pri vedení
+              významných transakcií <br> slovenského aj medzinárodného rozmeru a zastupovaní klientov
+              pri zásadných súdnych sporoch, nám umožňujú <br> poskytovať klientom praktické a užitočné
+              poradenstvo. V našej kancelárii samozrejme pôsobia aj mladí právnici, buď <br> ako advokátski
+              koncipienti alebo neskôr ako spolupracujúci asociovaní advokáti. Jednotlivé tímy
+              aktívne vedú partneri, <br> ktorí intenzívne dohliadajú na ich prácu. To zabezpečuje odbornú
+              kontrolu a garanciu kvality pre každý typ zadania. <br>
+              <br><br>
+              K práci pre klienta pristupujeme vždy osobne a individuálne,
+              či už ide o rutinné obchodné prípady alebo zložité transakcie. <br>
+              Spolupracujeme s odborníkmi v oblasti daňového poradenstva a s advokátskymi
+              kanceláriami v zahraničí, aby sme vedeli <br> zastrešiť záujmy našich klientov aj v
+              presahu do iných profesijných odvetví alebo iných jurisdikcií.
+            </span>
+
+            <span lang="en">
+              Law firm ČERNEJOVÁ & HRBEK has been providing legal services for its clients <br>
+              since 1992. We do not base only upon our tradition, we continue in the daily <br>
+              pursuit of constant professional development and education as well as of the best <br>
+              use of our experience for the benefit of our clients.
+              <br><br>
+              We are pleased that we have received for our work not only the recognition of the <br>
+              professional community and our colleagues, but also the confidence of many clients which <br>
+              is proved by the fact that they have been enjoying our services continuously for many years <br>
+              now. We owe to the clients’ evaluation of our work that we regularly rank on the top positions <br>
+              of Slovakia-based law firms reviews which are prepared by specialized agencies just on the basis <br>
+              of
+              clients’ evaluation. For instance, the publications Chambers Global and Chambers Europe regularly <br>
+              rank our
+              firm among the leading Slovak firms in the field of Mergers and Acquisitions and for many years <br>
+              we have been
+              evaluated within this publication as ”top ranked“ firm in Slovakia in the field of Disputes Solution. <br>
+              The world-wide
+              publication World Trademark Revue has repeatedly ranked our firm among the “leading experts” in Slovakia in the field of <br>
+              IP and Trade Mark Law. Since 2013, the law firms have been evaluated in the Slovak Republic within the project the Law Firm <br>
+              of the Year and our law firm is ranked every year in selected areas as a highly recommended, eventually recommended law firm.
+              <br><br>
+              We trust in expertise and experience. Knowledge obtained in leading of important
+              transactions of Slovak and international dimension and representation of clients
+              within cardinal court disputes allows us to provide clients with practical and
+              useful counselling. Admittedly, there are also young lawyers working in our team,
+              either as junior lawyers or later as cooperating associated attorneys. However,
+              particular teams are always led by partners who intensively supervise their work.
+              Thereby the professional control and guaranteed quality for every type of layout is secured.
+              <br><br>
+              The work for each client is always treated personally and individually, whether it
+              encompasses routine business cases or complex transactions. We cooperate with
+              professionals in the field of tax counselling and with foreign law firms in order
+              to cover the interests of our clients even in case of interference to other profession
+              sectors or jurisdictions.
+            </span>
+          </span>
+
+          <span class="mobileOnasText">
+            <span lang="sk">
+                Advokátska kancelária ČERNEJOVÁ & HRBEK poskytuje služby svojim klientom od
+                roku 1992.
+                Nestaviame iba na svojej tradícii, ale pokračujeme v každodennej snahe
+                 o neustály odborný
+                rast a vzdelávanie a tiež o čo najlepšie využitie našich skúseností
+                v prospech našich klientov. <a class="citatDalejMobil" onclick="citatDalejMobil();">Čítať ďalej...</a>
+              <br><br>
+              <span class="dlhyPopis">
+                Za svoje pôsobenie sme si získali nielen uznanie odbornej obce a našich kolegov,
+                ale aj
+                dôveru mnohých klientov, dôkazom čoho je, že naše služby využívajú nepretržite
+                už mnoho  rokov. Hodnoteniu našej práce klientmi vďačíme za to, že sa pravidelne umiestňujeme
+                na  popredných priečkach v prehľadoch advokátskych kancelárií pôsobiacich na Slovensku,
+                ktoré  pripravujú špecializované agentúry práve na základe podkladov od klientov.
+                Napríklad publikácie  Chambers Global a Chambers Europe pravidelne zaraďujú našu kanceláriu
+                medzi popredné slovenské  kancelárie v oblasti akvizícii a fúzií a dlhoročne sme v tejto
+                publikácii vyhodnotení ako „top ranked“  kancelária na Slovensku pre oblasť riešenia sporov.
+                Ďalšia svetová publikácia World Trademark Revue  zaraďuje opakovane našu kanceláriu medzi
+                vedúcich expertov („leading experts“) v Slovenskej republike  pre oblasť práva duševného
+                vlastníctva a ochranných známok. Od roku 2013 sa v Slovenskej republike  hodnotia advokátske
+                kancelárie v rámci projektu Právnická firma roka a naša kancelária je každoročne zaradená vo
+                vybraných oblastiach ako veľmi odporúčaná, prípadne odporúčaná kancelária.
+                <br><br>
+                Vsádzame na odbornosť a skúsenosť. Poznatky, ktoré sme nadobudli pri vedení
+                významných transakcií  slovenského aj medzinárodného rozmeru a zastupovaní klientov
+                pri zásadných súdnych sporoch, nám umožňujú  poskytovať klientom praktické a užitočné
+                poradenstvo. V našej kancelárii samozrejme pôsobia aj mladí právnici, buď  ako advokátski
+                koncipienti alebo neskôr ako spolupracujúci asociovaní advokáti. Jednotlivé tímy
+                aktívne vedú partneri,  ktorí intenzívne dohliadajú na ich prácu. To zabezpečuje odbornú
+                kontrolu a garanciu kvality pre každý typ zadania.
+                <br><br>
+                K práci pre klienta pristupujeme vždy osobne a individuálne,
+                či už ide o rutinné obchodné prípady alebo zložité transakcie.
+                Spolupracujeme s odborníkmi v oblasti daňového poradenstva a s advokátskymi
+                kanceláriami v zahraničí, aby sme vedeli  zastrešiť záujmy našich klientov aj v
+                presahu do iných profesijných odvetví alebo iných jurisdikcií.
+                <a class="citatMenejMobil" onclick="citatMenejMobil()">Čítať menej...</a>
+              </span>
+            </span>
+
+            <span lang="en">
+                Law firm ČERNEJOVÁ & HRBEK has been providing legal services for its clients
+                since 1992. We do not base only upon our tradition, we continue in the daily
+                pursuit of constant professional development and education as well as of the best
+                use of our experience for the benefit of our clients. <a class="citatDalejMobil" onclick="citatDalejMobil();"> Read more... </a>
+              <br><br>
+              <span class="dlhyPopis">
+                We are pleased that we have received for our work not only the recognition
+                of the professional community and our colleagues, but also the confidence of
+                many clients which is proved by the fact that they have been enjoying our services
+                continuously for many years now. We owe to the clients’ evaluation of our work that
+                we regularly rank on the top positions of Slovakia-based law firms reviews which are
+                prepared by specialized agencies just on the basis of clients’ evaluation. For instance,
+                the publications Chambers Global and Chambers Europe regularly rank our firm among
+                the leading Slovak firms in the field of Mergers and Acquisitions and for many years
+                we have been evaluated within this publication as ”top ranked“ firm in Slovakia in the
+                field of Disputes Solution. The world-wide publication World Trademark Revue has
+                repeatedly ranked our firm among the “leading experts” in Slovakia in the field of
+                IP and Trade Mark Law. Since 2013, the law firms have been evaluated in the Slovak
+                Republic within the project the Law Firm of the Year and our law firm is ranked every
+                year in selected areas as a highly recommended, eventually recommended law firm.
+                <br><br>
+                We trust in expertise and experience. Knowledge obtained in leading of important
+                transactions of Slovak and international dimension and representation of clients
+                within cardinal court disputes allows us to provide clients with practical and
+                useful counselling. Admittedly, there are also young lawyers working in our team,
+                either as junior lawyers or later as cooperating associated attorneys. However,
+                particular teams are always led by partners who intensively supervise their work.
+                Thereby the professional control and guaranteed quality for every type of layout is secured.
+                <br><br>
+                The work for each client is always treated personally and individually, whether it
+                encompasses routine business cases or complex transactions. We cooperate with
+                professionals in the field of tax counselling and with foreign law firms in order to
+                cover the interests of our clients even in case of interference to other profession
+                sectors or jurisdictions.
+                <a class="citatMenejMobil" onclick="citatMenejMobil();"> Read less... </a>
+              </span>
+            </span>
+          </span>
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="page" id="page3">
+      <div class="skupina" id="partneri">
+        <h1>
+          <span lang="sk"> Partneri </span>
+          <span lang="en"> Partners </span>
+        </h1>
+
+        <div class="ludiaContainer" id="partneriContainer">
+
+          <div class="ludo lavo" id="cernejova">
+            <div class="leftPanel">
+              <img src="assets/cernejova.jpg" class="profilovka" alt="cernejova foto" onclick="ujebTomu('cernejova')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                cernej@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('cernejova');">Alena <br>
+                    ČERNEJOVÁ
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:cernej@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('cernejova')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Alena Černejová vedie projekty v oblasti akvizícií a predajov podnikov a spoločností.
+                  Ako vedúca tímu poskytovala...
+
+                  <span class="hidden dlhyOpis">
+                    poradenstvo zahraničným investorom pri vstupe na slovenský trh v súvislosti
+                    s množstvom projektov a transakcií, vrátane akvizícií podnikov a spoločností, privatizácií,
+                    reštrukturalizácií spoločností a skupín, významných greenfield projektov, ako aj projektov
+                    nadobudnutia a správy nehnuteľností. Alena poskytuje poradenstvo a zastupuje klientov v
+                    súvislosti s oznamovaním koncentrácií Protimonopolnému úradu Slovenskej republiky a v
+                    iných konaniach pred Protimonopolným úradom Slovenskej republiky.
+                    <br><br>
+                    Alena absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+                    V rokoch 1984 až 1995 pôsobila ako vedecký pracovník Ústavu štátu a práva
+                    Slovenskej akadémie vied, v roku 1994 získala vedeckú hodnosť kandidáta právnych
+                    vied (CSc.) na základe obhajoby práce z oblasti súťažného práva. V roku 1992 bola
+                    zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+                    V rokoch 1991 až 1995 sa Alena zúčastnila viacerých zahraničných
+                    seminárov a stáží na prestížnych univerzitách a v renomovaných právnych
+                    kanceláriách. V roku 1997 sa Alena stala partnerom advokátskej kancelárie,
+                    ktorá sa premenovala na ČERNEJOVÁ & HRBEK.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Alena Černejová advises clients on projects of mergers and acquisitions, sale of businesses
+                  and companies. As a team leader she has advised...
+
+                  <span class="hidden dlhyOpis">
+                    foreign investors on their entry onto
+                    the Slovak market in a number of projects and transactions, including acquisitions of
+                    undertakings and companies, privatisations, restructuring of companies and groups,
+                    major greenfield projects, as well as projects of acquisition and management of real
+                    estates. She advises on and represents clients in notification of concentration to the
+                    Antimonopoly Office of the Slovak Republic and in other proceedings before the Slovak
+                    competition authority.
+                    <br><br>
+                    Alena received her law degree from the Law Faculty of Comenius University in
+                    Bratislava in 1984. In the years 1984-1995 she worked as a research specialist in
+                    the Institute of State and Law of the Slovak Academy of Sciences where she defended her
+                    CSc (PhD equivalent) on competition law. In 1992 she was admitted to the Slovak
+                    Bar Association. During the years 1991 – 1995 Alena participated in many seminars
+                    and internships at prestigious universities and in renowned law firms abroad.
+                    In 1997 Alena joined the law firm as a partner, and the law firm was renamed to
+                    ČERNEJOVÁ & HRBEK.
+                  </span>
+                </span>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="ludo pravo" id="hrbek">
+            <div class="leftPanel">
+              <img src="assets/hrbek.jpg" class="profilovka" alt="hrbek foto" onclick="ujebTomu('hrbek')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                hrbek@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('hrbek');">Milan <br>
+                    HRBEK
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:hrbek@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('hrbek')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Milan Hrbek je zakladajúcim partnerom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+                  Cenné skúsenosti nadobudol Milan zastupovaním klientov pri množstve transakcií a projektov,
+
+                  <span class="hidden dlhyOpis">
+                    vrátane transakcií s cennými
+                    papiermi, akvizícií podnikov a spoločností, privatizácií, reštrukturalizácii dlhov spoločností
+                    a projektov týkajúcich sa nehnuteľností. Milan zastupuje klientov v oblasti mimosúdneho
+                    riešenia sporov a mediácie medzi sporovými stranami. Zároveň je vyhľadávaným odborníkom na
+                    vedenie sporov vo všetkých typoch konaní, teda v súdnych, správnych a rozhodcovských konaniach,
+                    ale aj v disciplinárnych konaniach v rámci profesných komôr. V týchto sporoch často ide o riešenie
+                    závažných právnych otázok so zásadným významom pre smerovanie aplikačnej praxe v konkrétnych
+                    právnych vzťahoch.
+                    <br><br>
+                    Milan absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+                    Po skončení štúdia pracoval na Okresnej prokuratúre Bratislava II, v roku 1991 sa stal okresným
+                    prokurátorom pre okres Bratislava II. V roku 1992 začal vykonávať súkromnú prax ako zakladajúci
+                    partner advokátskej kancelárie, ktorá od roku 1997 pôsobí pod menom ČERNEJOVÁ & HRBEK.
+                    <br><br>
+                    Počas roku 2006 bol Milan členom Legislatívnej rady vlády Slovenskej republiky.
+                    Jedno volebné obdobie (2004 – 2007) bol členom disciplinárneho senátu Najvyššieho súdu
+                    Slovenskej republiky a v roku 2010 bol zvolený do disciplinárnej komisie Slovenskej advokátskej
+                    komory a menovaný za predsedu disciplinárneho senátu.
+                    <br><br>
+                    Milan si postupne získal a upevnil reputáciu ako procesný právnik, ktorý zastupuje klientov
+                    pri zložitých a závažných sporoch. O dôvere klientov v jeho schopnosti pri riešení sporov
+                    svedčia aj jeho výnimočné hodnotenia nezávislými hodnotiteľmi v medzinárodných publikáciách.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Milan Hrbek is the founding partner of the Law Firm ČERNEJOVÁ & HRBEK. He has acquired
+                  valuable experience in representing clients in many transactions and projects,
+
+                  <span class="hidden dlhyOpis">
+                    including
+                    transactions with securities, acquisitions of undertakings and companies, privatisations,
+                    restructuring of debts and projects related to real estates. Milan represents clients in
+                    the out of court settlement of disputes and mediation between disputing parties. He is
+                    highly sought after expert for leading the disputes in all types of proceedings – in the
+                    court, administrative and arbitration proceedings, but also in disciplinary proceedings
+                    in profession chambers. In these disputes there are very often resolved legal issues which
+                    are highly relevant for further development of application practice in concrete legal
+                    relations.
+                    <br><br>
+                    Milan received his law degree in 1984 from the Faculty of Law of the Comenius University in
+                    Bratislava, Slovakia. After graduation he worked in the office of the district prosecutor
+                    of Bratislava II and in 1991 he became the District Prosecutor for the district Bratislava II.
+                    In 1992 he started a private practice as a founding partner of the law firm known since 1997
+                    under the name ČERNEJOVÁ & HRBEK.
+                    <br><br>
+                    During 2006 Milan was a member of the Legislative Council of the Government of the
+                    Slovak Republic. From 2004 to 2007 he was a member of the disciplinary senate of the
+                    Supreme Court of the Slovak Republic and in 2010 he was elected into the disciplinary
+                    committee of the Slovak Bar Association and appointed as the chairman of the disciplinary
+                    senate.
+                    <br><br>
+                    Milan’s expertise and considerable experience in the area of litigation, including
+                    high-profile disputes is highly regarded by clients in rankings prepared by independent
+                    agencies and published in international publications.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="ludo lavo" id="stavrovsky">
+            <div class="leftPanel">
+              <img src="assets/stavrovsky.jpg" class="profilovka" alt="stavrovsky foto" onclick="ujebTomu('stavrovsky')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                stavro@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('stavrovsky');">Peter <br>
+                    STAVROVSKÝ
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:stavro@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('stavrovsky')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Peter Stavrovský poskytuje poradenstvo klientom predovšetkým v oblasti nadobúdania,
+                  prevodu a nájmu nehnuteľností,
+
+                  <span class="hidden dlhyOpis">
+                    viedol viacero významných greenfield a brownfield
+                    projektov výstavby a rozširovania výrobných, logistických a servisno-administratívnych
+                    centier, tiež viedol viacero projektov akvizícií slovenských spoločností investormi. Peter
+                    sa intenzívne zaoberá tiež právom duševného vlastníctva, klientom poskytuje pravidelne
+                    poradenstvo v oblasti autorského práva, práva IT či ochranných známok, vrátane registrácie
+                    a ochrany ochranných známok, a zastupuje klientov aj v oblasti nekalosúťažného konania a v
+                    sporoch v tejto oblasti. Peter tiež radí klientom pri vyhodnocovaní ich zmluvných ujednaní
+                    ako dohôd potenciálne obmedzujúcich súťaž a zastupuje klientov v konaniach pred Protimonopolným
+                    úradom Slovenskej republiky v tejto oblasti súťažného práva.
+                    <br><br>
+                    Peter absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1983.
+                    V období rokov 1983 až 1986 pracoval na Okresnom súde v Bratislave ako súdny čakateľ, neskôr
+                    ako sudca. V rokoch 1987 až 1995 pracoval ako právny špecialista na Právnom inštitúte Ministerstva
+                    spravodlivosti, od roku 1993 bol riaditeľom úseku právnych informácií. V rokoch 1995 až 1997
+                    pôsobil na Inštitúte pre aproximáciu práva pri Úrade vlády Slovenskej republiky ako zástupca
+                    riaditeľa a neskôr ako riaditeľ. V roku 1997 sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+                    <br><br>
+                    Peter je dlhoročným členom redakčnej rady časopisu Justičná revue a publikoval množstvo článkov
+                    v tomto odbornom časopise. Peter je aj spoluautorom kapitoly venovanej Slovenskej republike v
+                    publikácii World Trademark Review – Anti-counterfeiting 2010 (Globe Business Publishing Ltd., 2010).
+                    V publikácii World Trademark Revue je dlhoročne hodnotený ako odporúčaný odborník v Slovenskej
+                    republike pre oblasť práva duševného vlastníctva a ochranných známok.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Peter Stavrovský advises clients in relation to acquisition, transfer and lease of real
+                  estates,
+
+                  <span class="hidden dlhyOpis">
+                    he has led major greenfield and brownfield projects of construction and extension
+                    of manufacturing, logistics and administrative centers, and he also has led many acquisition
+                    projects for foreign investors. Peter is the specialist in the intellectual property
+                    law, he regularly advises clients on various issues of copyright, IT law, trademarks,
+                    including the registration and protection of trademarks, and represents clients in
+                    cases of unfair competition. Peter also advises clients on assessment of their
+                    contractual arrangements as potential cartel agreements and represents them in the
+                    related proceedings before the Antimonopoly Office of the Slovak Republic.
+                    <br><br>
+                    Peter received his law degree in 1983 from the Faculty of Law of Comenius University in
+                    Bratislava, Slovakia. In the years 1983 – 1986 he worked at the District Court in Bratislava
+                    as a court officer, later as a judge. In the years 1987 – 1995 he had been working as the
+                    legal expert at the Law Institute of the Ministry of Justice, since 1993 as the Director
+                    of the Section of Legal Information. In the years 1995 – 1997 Peter worked in the Institute
+                    for Approximation of Law at the Office of the Government of the Slovak Republic as the
+                    deputy director and later as the director of this Institute. In the year 1997 Peter joined
+                    the Law Firm ČERNEJOVÁ & HRBEK and since 1999 he has been associated with ČERNEJOVÁ & HRBEK
+                    as a partner.
+                    <br><br>
+                    Peter has been for many years a member of the editorial board of the journal Justičná
+                    revue and he has published a number of articles in this professional journal. Peter
+                    is a co-author of the Slovak chapter in the Globe Business Publishing Ltd. 2010
+                    publication World Trademark Review – Anti-counterfeiting 2010. In the publication
+                    World Trademark Revue, Peter is repeatedly ranked as „highly recommended” expert in
+                    the Slovak Republic for IP law and trademarks.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="ludo pravo" id="sinkovic">
+            <div class="leftPanel">
+              <img src="assets/sinkovic.jpg" class="profilovka" alt="sinkovic foto" onclick="ujebTomu('sinkovic')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                sinkovic@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('sinkovic');">Ján <br>
+                    ŠINKOVIC
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:sinkovic@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('sinkovic')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Ján Šinkovic poskytuje klientom poradenstvo predovšetkým v oblasti sporovej agendy,
+                  no tak isto pri nadobudnutiach, prevodoch a prenájmoch nehnuteľností.
+
+                  <span class="hidden dlhyOpis">
+                    Ján poskytuje vysoko odborné poradenstvo a zastupuje slovenských ako aj
+                    zahraničných klientov v mnohých závažných súdnych sporoch pred všeobecnými
+                    súdmi Slovenskej republiky, rozhodcovskými súdmi, tak isto pred Ústavným súdom SR,
+                    pred Európskym súdom pre ľudské práva v Štrasburgu, a v neposlednom rade pred
+                    disciplinárnymi orgánmi, regulujúcimi činnosť rôznych právnických profesií (notárov, sudcov).
+                    <br><br>
+                    Ján absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1998.
+                    V tom istom roku sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK. Po tom, ako bol v
+                    roku 2001 zapísaný do zoznamu advokátov Slovenskou advokátskou komorou, sa stal asociovaným
+                    advokátom a v roku 2008 partnerom v Advokátskej kancelárii ČERNEJOVÁ & HRBEK. V roku 2016 bol
+                    zapísaný do zoznamu rozhodcov Rozhodcovského súdu Slovenskej advokátskej komory.
+                    <br><br>
+                    Ján nadobudol značné skúsenosti v oblasti sporovej agendy pri uplatňovaní rôznych nárokov
+                    na slovenských súdoch, týkajúcich sa občianskoprávnych vzťahov (napríklad práva zo zmeniek,
+                    spotrebiteľské práva, ochrana osobnosti, spory súvisiace s nehnuteľnosťami, spory medzi
+                    spoluvlastníkmi), obchodnoprávnych vzťahov (napríklad spory medzi spoločníkmi, medzi akcionármi,
+                    medzi zmluvnými stranami, nároky na náhradu škody), sporov z verejného obstarávania, a mnoho
+                    ďalších právnych vzťahov.
+                    <br><br>
+                    Ján je autorom kapitoly venovanej Slovenskej republike v publikácii Právna úprava nákladov
+                    súdneho konania platná v rôznych štátoch sveta (Lovells, 2010). V súčasnosti pôsobí ako
+                    člen pracovnej skupiny pre občianske právo v Slovenskej advokátskej komore.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Ján Šinkovic advises clients primarily in the area of dispute resolution, but
+                  also in acquisitions, transfers and leases of real estates.
+
+                  <span class="hidden dlhyOpis">
+                    Ján provides a highly
+                    professional assistance and represents Slovak as well as foreign clients in many
+                    important court proceedings before general courts of the Slovak Republic, arbitration
+                    courts, the Constitutional Court of the Slovak Republic, the European Court of Human Rights
+                    in Strasbourg, and last but not least before the disciplinary bodies regulating activity of
+                    various legal professions (notaries, judges).
+                    <br><br>
+                    Ján received his law degree from the Law Faculty of Comenius University in Bratislava, Slovakia in
+                    1998. In the same year he joined the Law Firm ČERNEJOVÁ & HRBEK and after having been admitted
+                    to the Slovak Bar Association in 2001, Ján has been associated with ČERNEJOVÁ & HRBEK, first as
+                    an associated lawyer and since 2008 as a partner. In 2016 he was admitted to the Arbitration
+                    Court of the Slovak Bar Association.
+                    <br><br>
+                    Ján has a considerable practice in litigation of various claims in Slovak courts,
+                    including civil law matters (such as bank notes claims, consumer protection claims,
+                    protection of personality, disputes related to real estate, co-ownership disputes),
+                    commercial law matters (disputes between shareholders, between contracting parties,
+                    claims for damages), public procurement disputes, and many others.
+                    <br><br>
+                    Ján is an author of the Slovak chapter in the Lovells 2010 publication At what cost?
+                    A Lovells multi jurisdictional guide to litigation costs. Jan actively works also
+                    as a member of the civil law working team in the Slovak Bar Association.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skupina" id="asociovani">
+        <h1>
+          <span lang="sk"> Asociovaní advokáti </span>
+          <span lang="en"> Asociates </span>
+        </h1>
+
+        <div class="ludiaContainer" id="asociovaniContainer">
+          <div class="ludo lavo" id="bezekova">
+            <div class="leftPanel">
+              <img src="assets/bezekova.jpg" class="profilovka" alt="bezekova foto" onclick="ujebTomu('bezekova')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                bezekova@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                  <h3 onclick="ujebTomu('bezekova');">Jana <br>
+                      BEZEKOVÁ
+                  </h3>
+
+                  <div class="miniButtony">
+                    <a href="mailto:bezekova@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                    <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('bezekova')">
+                  </div>
+                </div>
+
+
+                <p>
+                  <span lang="sk">
+                    Jana Bezeková poskytuje klientom každodenné poradenstvo najmä v oblasti obchodného a
+                    pracovného práva.
+
+                    <span class="hidden dlhyOpis">
+                      Ako členka tímu sa podieľala na viacerých projektoch a transakciách, vrátane právnych previerok,
+                      akvizícií a fúzií spoločností a nájmu nehnuteľností. Venuje sa tiež právnemu poradenstvu v
+                      oblasti reklamy, ochrany osobných údajov a ochrany spotrebiteľa.
+                      <br><br>
+                      Jana absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 2002
+                      a v tom istom roku nastúpila do Advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátska
+                      koncipientka. V roku 2005 bola zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+                      Od roku 2006 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako asociovaná advokátka.
+                      Medzinárodné skúsenosti získala počas stáže v roku 2009 v Advokátskej kancelárii Lachaud
+                      Lepany Mandeville, Paríž, Francúzsko.
+                      <br><br>
+                      Jana je spoločne s ďalšími advokátkami pôsobiacimi v kancelárii spoluautorkou publikácie
+                      Akciová spoločnosť, jej organizačné a finančné riadenie (Verlag Dashöfer, Bratislava, 2004, 2005).
+                    </span>
+                  </span>
+
+                  <span lang="en">
+                    Jana Bezeková advises clients especially in the field of commercial and labour law.
+
+                    <span class="hidden dlhyOpis">
+                      As the member of the team she has worked on many projects and transactions, including
+                      due diligence, acquisitions and mergers and the lease of real estate. Jana advises
+                      also in the field of advertising, personal data protection and consumer’s protection.
+                      <br><br>
+                      Jana received her law degree from the Law Faculty of Comenius University in Bratislava,
+                      Slovakia in 2002 and in the same year she joined the Law Firm ČERNEJOVÁ & HRBEK as a
+                      junior lawyer. In 2005 she was admitted to the Slovak Bar Association. Since 2006 Jana
+                      has been associated with ČERNEJOVÁ & HRBEK as an associated lawyer. She acquired
+                      international experience during the internship in 2009 in the Law Firm Lachaud Lepany
+                      Mandeville, Paris, France.
+                      <br><br>
+                      Jana is, together with other members of the firm, a co-author of the publication
+                      Joint Stock Company (Verlag Dashöfer, Bratislava, 2004, 2005).
+                    </span>
+                  </span>
+                </p>
+            </div>
+          </div>
+
+          <div class="ludo pravo" id="dziak">
+            <div class="leftPanel">
+              <img src="assets/dziak.jpg" class="profilovka" alt="dziak foto" onclick="ujebTomu('dziak')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                dziak@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('dziak');">Juraj <br>
+                    DZIAK
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:dziak@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('dziak')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Juraj Dziak poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva
+                  a práva obchodných spoločností.
+
+                  <span class="hidden dlhyOpis">
+                    Okrem toho Juraj aktívne zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                    Podieľal sa ako člen tímu aj na viacerých projektoch.
+                    <br><br>
+                    Juraj absolvoval štúdium práva na Právnickej fakulte Trnavskej univerzity a v roku 2011
+                    nastúpil do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+                    Po vykonaní advokátskych skúšok a zápise do zoznamu advokátov Slovenskou advokátskou
+                    komorou v roku 2015 pôsobí Juraj v advokátskej kancelárii ČERNEJOVÁ a HRBEK ako asociovaný advokát.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Juraj Dziak advises clients mainly in the field of commercial and civil law and
+                  corporate matters.
+
+                  <span class="hidden dlhyOpis">
+                    Juraj also actively represents clients in the court proceedings
+                    in the civil law and commercial law cases. He has also participated as a team member
+                    on various projects.
+                    <br><br>
+                    Juraj Dziak received his law degree from the Law Faculty of Trnava University.
+                    In 2011 he joined the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer. After passing
+                    the advocate exams and after having been admitted to the Slovak Bar Association,
+                    in 2015, Juraj has been associated with ČERNEJOVÁ & HRBEK as an associated lawyer.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="ludo lavo" id="kapitulcinova">
+            <div class="leftPanel">
+              <img src="assets/kapitulcinova.jpg" class="profilovka" alt="kapitulcinova foto" onclick="ujebTomu('kapitulcinova');">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                kapitulcinova@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('kapitulcinova');">Tatiana <br>
+                    KAPITULČÍNOVÁ
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:kapitulcinova@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('kapitulcinova');">
+                </div>
+              </div>
+
+              <p>
+                  <span lang="sk">
+                  Tatiana Kapitulčínová poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva a
+                  práva obchodných spoločností.
+
+                  <span class="hidden dlhyOpis">
+                    Okrem toho Tatiana zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                    Tatiana absolvovala štúdium práva na Právnickej fakulte Univerzity Komenského v Bratislave.
+                    Počas štúdia Tatiana praxovala štyri roky v advokátskych kanceláriách ako právna asistentka a v
+                    roku 2017 nastúpila do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Tatiana Kapitulčínová advises clients mainly in the field of commercial and civil
+                  law and corporate matters.
+
+                  <span class="hidden dlhyOpis">
+                    Tatiana also represents clients in the court proceedings
+                    in the civil law and commercial law cases. Tatiana received her law degree from
+                    the Law Faculty of Comenius University, Bratislava. During her studies Tatiana
+                    practiced for four years at several law firms as a paralegal and in 2017 she
+                    joined the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="ludo pravo" id="zahradnik">
+            <div class="leftPanel">
+              <img src="assets/zahradnik.jpg" class="profilovka" alt="zahradnik foto" onclick="ujebTomu('zahradnik')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                zahradnik@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('zahradnik');">Tomáš <br>
+                    ZAHRADNIK
+                </h3>
+
+                <div class="miniButtony">
+                  <a href="mailto:zahradnik@chplaw.sk"><img src="assets/mail.png" alt="mail tlacitko"></a>
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('zahradnik')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Tomáš Zahradnik poskytuje klientom právne poradenstvo primárne v oblasti obchodného a
+                  civilného práva, venuje sa však aj trestno-právnej problematike.
+
+                  <span class="hidden dlhyOpis">
+                    Zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+                    Štúdium na Právnickej fakulte Univerzity Komenského v Bratislave ukončil v roku 2016 a
+                    od roku 2017 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Tomáš Zahradnik advices clients primarily in the area of commercial and
+                  civil law, however he also deals with criminal law cases.
+
+                  <span class="hidden dlhyOpis">
+                    He represents clients
+                    in civil and commercial litigations. Tomáš graduated from the Comenius
+                    University in Bratislava, Faculty of Law in 2016 and since 2017 he has been
+                    working in the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="ludo lavo" id="vincze">
+            <div class="leftPanel">
+              <img src="assets/vincze.jpg" class="profilovka" alt="vincze foto" onclick="ujebTomu('vincze')">
+
+              <div class="bengoroKontakt">
+                Email: <br>
+                vincze@chplaw.sk
+              </div>
+            </div>
+
+            <div class="quiestce">
+              <div class="nadpisLuda">
+                <h3 onclick="ujebTomu('vincze');">Jana <br>
+                    VINCZE
+                </h3>
+
+                <div class="miniButtony">
+                  <img src="assets/mail.png" alt="mail tlacitko">
+                  <img src="assets/minimize.png" alt="minimize tlacitko" onclick="odjebTomu('vincze')">
+                </div>
+              </div>
+
+              <p>
+                <span lang="sk">
+                  Jana Vincze je vedúcou kancelárie a koordinuje všetky administratívne funkcie kancelárie.
+
+                  <span class="hidden dlhyOpis">
+                    Má na starosti riešenie všetkých otázok týkajúcich sa chodu kancelárie a je miestom prvého
+                    kontaktu pre poskytovanie informácií o našej advokátskej kancelárii.
+                    Jana nastúpila do Advokátskej
+                    kancelárie ČERNEJOVÁ & HRBEK na pozíciu advokátskej tajomníčky po ukončení obchodnej akadémie v
+                    roku 1997. Postupne pracovala na všetkých administratívnych postoch v kancelárii a od roku 2001
+                    je vedúcou kancelárie a manažérom jej administratívnych zložiek. V roku 2009 Jana úspešne
+                    absolvovala štúdium na Slovenskej technickej univerzite a bol jej udelený titul inžinier.
+                  </span>
+                </span>
+
+                <span lang="en">
+                  Jana Vincze is the office manager and coordinates all administrative functions
+                  in the law firm.
+
+                  <span class="hidden dlhyOpis">
+                    She deals with any questions related to the office and is also
+                    the first contact person for providing any information on the law firm. After
+                    finishing the Business Academy in Bratislava in 1997, Jana joined the Law Firm
+                    ČERNEJOVÁ & HRBEK as legal secretary. During years she has been consecutively
+                    working on all administrative positions in the office. Since 2001 Jana has been
+                    the office manager of ČERNEJOVÁ & HRBEK. In 2009 Jana graduated at the Slovak
+                    Technical University and was honoured with the degree Engineer.
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="page" id="page4">
+      <div class="oblastiContainer">
+        <h1>
+          <span lang="sk"> Oblasti práva </span>
+          <span lang="en"> Practice areas </span>
+        </h1>
+        <h3>
+          <span lang="sk"> Naša spoločnosť sa venuje nasledovným oblastiam </span>
+          <span lang="en"> Our firm works in the following areas </span>
+        </h3>
+
+        <div class="buttonContainer">
+          <a  onclick="slide(0)">
+            <p>
+              <span lang="sk"> Obchodné spoločnosti </span>
+              <span lang="en"> Corporate </span>
+            </p>
+          </a>
+          <a  onclick="slide(1)">
+            <p>
+              <span lang="sk"> Akvizície a fúzie </span>
+              <span lang="en"> Mergers and acquisitions </span>
+            </p>
+          </a>
+          <a  onclick="slide(2)">
+            <p>
+              <span lang="sk"> Zmluvné právo </span>
+              <span lang="en"> Contracts </span>
+            </p>
+          </a>
+          <a  onclick="slide(3)">
+            <p>
+              <span lang="sk"> Verejné obstarávanie </span>
+              <span lang="en"> Public procurement </span>
+            </p>
+          </a>
+          <a  onclick="slide(4)">
+            <p>
+              <span lang="sk"> Súťažné právo </span>
+              <span lang="en"> Competition and antitrust </span>
+            </p>
+          </a>
+          <a  onclick="slide(5)">
+            <p>
+              <span lang="sk"> Regulované oblasti </span>
+              <span lang="en"> Regulatory </span>
+            </p>
+          </a>
+          <a  onclick="slide(6)">
+            <p>
+              <span lang="sk"> Pracovné právo </span>
+              <span lang="en"> Labour law </span>
+            </p>
+          </a>
+          <a  onclick="slide(7)">
+            <p>
+              <span lang="sk"> Právo nehnuteľností </span>
+              <span lang="en"> Real estate </span>
+            </p>
+          </a>
+          <a  onclick="slide(8)">
+            <p>
+              <span lang="sk"> Duševné vlastníctvo </span>
+              <span lang="en"> Intellectual property </span>
+            </p>
+          </a>
+          <a  onclick="slide(9)">
+            <p>
+              <span lang="sk"> Riešenie sporov </span>
+              <span lang="en"> Dispute resolution </span>
+            </p>
+          </a>
+        </div>
+
+        <div class="oblastiScroll">
+          <div class="oblastPrava" id="obchodneSpolocnosti" style="display:block;">
+            <h3>
+              <span lang="sk"> Obchodné spoločnosti </span>
+              <span lang="en"> Corporate </span>
+            </h3>
+
+
+              <img src="assets/medaile/obchodneSpolocnosti/os2018oranzova.jpg" alt="obchodne spolocnosti medaila">
+              <img src="assets/medaile/obchodneSpolocnosti/os2015cierna.jpg" alt="obchodne spolocnosti medaila">
+              <img src="assets/medaile/obchodneSpolocnosti/os2014cierna.jpg" alt="obchodne spolocnosti medaila">
+              <img src="assets/medaile/obchodneSpolocnosti/os2013oranzova.jpg" alt="obchodne spolocnosti medaila">
+              <img src="assets/medaile/obchodneSpolocnosti/os2016oranzova.jpg" alt="obchodne spolocnosti medaila">
+
+            <br>
+
+            <p>
+              <span lang="sk">
+                Našim klientom poskytujeme poradenstvo pri založení obchodných spoločností,
+                zmenách v ich zakladateľských dokumentoch alebo premene právnej formy,
+                zlúčení či rozdelení existujúcich spoločností.
+                Pripravujeme dohody o riadení projektov v prípade joint venture,
+                zmluvy medzi akcionármi či spoločníkmi alebo zmluvy s osobami v postavení štatutárneho orgánu.
+                Poskytujeme klientom právnu pomoc pri zrušení a likvidácii spoločností.
+                <br><br>
+                Okrem rutinných a bežných vecí poskytujeme našim slovenským aj zahraničným klientom právne služby
+                pri komplikovaných projektoch reštrukturalizácie alebo vstupu na nový trh,
+                ako napríklad odčlenení majetku spoločnosti a prevodoch časti podniku do novozaložených spoločností
+                a pri reorganizácii štruktúry či už slovenských spoločností alebo celej skupiny.
+              </span>
+              <span lang="en">
+                We assist our clients with establishment of companies, amendments of corporate
+                documents or change of the legal form of an entity, merger or division of existing
+                companies. We draft the agreements on management of projects in case of joint venture,
+                shareholder agreements and agreements with persons in their capacity of the statutory
+                body. We also advise in process of dissolution and liquidation of companies.
+                <br><br>
+                Besides routine and common matters, we advise our clients in complicated restructuring
+                projects or entry into a new market, such as separation of company assets and transfer
+                of a part of business into a newly established company or group restructuring.
+              </span>
+          </p>
+
+        </div>
+
+        <div class="oblastPrava" id="akvizicie&fuzie">
+          <h3>
+            <span lang="sk"> Akvizície a fúzie </span>
+            <span lang="en"> Mergers and acquisitions </span>
+          </h3>
+
+          <img src="assets/medaile/akvizicie&fuzie/af2013oranzova.jpg" alt="akvizicie a fuzie medaila">
+
+          <p>
+            <span lang="sk">
+              Zastupujeme klientov na strane kupujúcich aj predávajúcich pri nadobudnutí podnikov,
+              častí podnikov, majetku a celých spoločností, pôsobiacich v rôznych oblastiach priemyslu a služieb.
+              Poradenstvo v tejto oblasti zahŕňa internú právnu previerku na strane predávajúceho alebo právnu previerku
+              nadobúdanej spoločnosti či majetku kupujúcim (due diligence), prípravu štruktúry transakcie,
+              vypracovanie transakčných dokumentov a rokovanie o ich podmienkach s protistranou.
+              Do tejto oblasti možno zaradiť aj prípravu verejnej ponuky na kúpu akcií alebo úpravu pomerov
+              spoločníkov na čas po transakcii. Dôsledkom začlenenia novej spoločnosti do skupiny môžu byť
+              skupinové reštrukturalizácie, premeny právnej formy, zlúčenia alebo rozdelenia spoločností.
+              Na poradenstvo v tejto oblasti nadväzuje zastupovanie investora pri oznámení
+              koncentrácie Protimonopolnému úradu Slovenskej republiky.
+            </span>
+
+            <span lang="en">
+              The law firm has advised clients in a number of transactions in which foreign
+              investors have acquired local businesses in various industries. The advice usually
+              covered a complex of various legal relations, including a provision of legal due
+              diligence services regarding an acquisition-of target and its assets, structuring of
+              transaction and preparation of transactional documents, negotiation with counterparts,
+              representation of the investor in notification of a merger to the government agency
+              having competition authority, preparation of a public offer for purchase of shares and
+              completion of post-closing arrangements.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="zmluvnePravo">
+          <h3>
+            <span lang="sk"> Zmluvné právo </span>
+            <span lang="en"> Contracts </span>
+          </h3>
+
+          <p>
+            <span lang="sk">
+              Pre našich klientov pripravujeme a pripomienkujeme dôležité obchodné zmluvy.
+              Máme klientov z rôznych oblastí priemyslu a služieb, vrátane automobilového priemyslu,
+              mliekárenstva, veľkoobchodu a maloobchodu, dopravy, stavebníctva, poisťovníctva a poskytovania
+              spotrebiteľských úverov, farmaceutického priemyslu či zdravotníctva. Zmluvné vzťahy, v ktorých
+              im radíme, zahŕňajú okrem iného spotrebiteľské zmluvy, dodávateľsko–odberateľské vzťahy, zmluvy o
+              vývoji a výskume,  prieskumoch trhu, reklame a marketingu.
+            </span>
+
+            <span lang="en">
+              We prepare and comment for our clients important commercial contracts. Our clients are
+              active in various industries, including automotive, dairy, wholesale and retail, transport,
+              construction, insurance, providing consumer credits, pharmaceutical industry or health care.
+
+              We advise our clients with respect to contractual relations including consumer contracts,
+              sub-contracting, research and development agreements, market research, advertisement and
+              marketing
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="verejneObstaravanie">
+          <h3>
+            <span lang="sk"> Verejné obstarávanie </span>
+            <span lang="en"> Public procurement </span>
+          </h3>
+
+          <img src="assets/medaile/verejneObstaravanie/vo2014cierna.jpg" alt="verejne obstaravanie medaila">
+          <img src="assets/medaile/verejneObstaravanie/vo2014oranzova.jpg" alt="verejne obstaravanie medaila">
+
+          <p>
+            <span lang="sk">
+              Verejné obstarávanie, teda proces, pri ktorom štátne a verejné úrady alebo
+              organizácie nakupujú tovar alebo služby od súkromného sektora, sa riadi množstvom
+              zložitých pravidiel. Naša advokátska kancelária poskytuje komplexné právne služby
+              najmä pre uchádzačov v procese verejného obstarávania. Poskytujeme právne služby
+              podnikateľom v rôznych odvetviach (napr. stavebníctvo, projektovanie stavieb, energetika).
+              Naše služby často zahŕňajú objasnenie rôznych otázok v podmienkach súťaže alebo súťažných
+              podkladoch, kontrolu prihlášok z pohľadu formálnych požiadaviek, prípravu a úpravy zmlúv,
+              poradenstvo uchádzačom pri námietkach a odvolaniach v procese verejného obstarávania.
+            </span>
+
+            <span lang="en">
+              Public procurement, the process by which the state and public departments or
+              organisations purchase goods and services from the private sector, is governed by a
+              number of complicated rules. Our law firm provides a comprehensive range of legal
+              support services, mainly to the bidders in the public procurement process. We provide
+              legal support for the entrepreneurs in diverse sectors (e.g. construction, construction
+              design, energy). Our services often include clarification of various issues in the tender
+              conditions, review of the tender documentation or applications with respect to formal
+              aspects, drafting or review of the contracts, advice with respect to bidder‘s
+              queries and complaints.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="sutaznePravo">
+          <h3>
+            <span lang="sk"> Súťažné právo </span>
+            <span lang="en"> Competition and antitrust </span>
+          </h3>
+
+          <img src="assets/medaile/sutaznePravo/sp2015cierna.jpg" alt="sutazne pravo medaila">
+          <img src="assets/medaile/sutaznePravo/sp2016oranzova.jpg" alt="sutazne pravo medaila">
+          <img src="assets/medaile/sutaznePravo/sp2018oranzova.jpg" alt="sutazne pravo medaila">
+
+          <p>
+            <span lang="sk">
+              Oblasť súťažného práva zahŕňa poradenstvo a zastupovanie klientov pri
+              oznamovaní koncentrácií Protimonopolnému úradu Slovenskej republiky v prípade
+              nadobudnutia podnikov či spoločností alebo založenia spoločného podniku, ako aj
+              zastupovanie klientov v iných konaniach, napríklad v konaní o možných dohodách
+              obmedzujúcich hospodársku súťaž či zneužívaní dominantného postavenia podnikateľom.
+              Poskytujeme poradenstvo klientom pri posudzovaní ich aktivít ako možných dohôd obmedzujúcich
+              hospodársku súťaž alebo zneužívania dominantného postavenia a zastupujeme klientov v
+              konaniach týkajúcich sa tejto problematiky, vrátane zastupovania klientov, ktorí žiadajú o
+              imunitu v rámci leniency programme (program zhovievavosti. Radíme klientom tiež pri
+              zohľadnení súťažných aspektov v ich distribučných schémach a rámcových zmluvách.
+              V neposlednom rade asistujeme pri príprave a realizácii pravidiel na dodržiavanie
+              súťažného práva a organizujeme školenia a semináre pre našich klientov a ich manažérov.
+            </span>
+
+            <span lang="en">
+              Advising in competition law includes the assistance and representation of clients
+              in notification of concentrations to the Antimonopoly Office of the Slovak Republic
+              in case of acquisition of undertakings or establishment of a joint venture, as well
+              as representation of clients in other proceedings, such as on potential cartel agreements
+              or abuse of a dominant position by an undertaking. We advise our clients in assessment
+              of their activities to avoid potential cartel arrangements or abusing the dominant
+              position and we represent clients in related proceedings, including the representation
+              of clients applying for immunity within the leniency programme. We also advise clients
+              in assessment of antitrust aspects in their distribution schemes and framework agreements.
+              Last but not least we assist in preparation and implementation of rules for compliance
+              with competition law and organise workshops and seminars for our clients and their managers.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="regulovaneOblasti">
+          <h3>
+            <span lang="sk"> Regulované oblasti </span>
+            <span lang="en"> Regulatory </span>
+          </h3>
+
+          <p>
+            <span lang="sk">
+              Niektoré odvetvia priemyslu a služieb sú výrazne regulované štátom,
+              prostredníctvom zákonov a podzákonných noriem. Podnikanie v týchto oblastiach
+              vyžaduje splnenie a následné dodržiavanie množstva zákonom stanovených podmienok,
+              poskytovanie pravidelných správ a starostlivú kontrolu dodržiavania štandardov.
+              Poskytujeme právne poradenstvo našim klientom v regulovaných odvetviach v povoľovacích a
+              správnych konaniach, ako aj pri príprave interných pravidiel na zabezpečenie súladu so
+              slovenskými právnymi predpismi.
+            </span>
+
+            <span lang="en">
+              Certain spheres of industry and services are strictly regulated by the laws and
+              implementing regulations. Doing business in these spheres requires fulfillment
+              and constant compliance with a number of conditions stipulated by law, provision
+              of regular reports and thorough control of complying with standards. We advise our
+              clients from regulated industries in proceedings on granting the permission to conduct
+              the respective business, as well as in preparation of internal rules to assure the
+              compliance with Slovak laws
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="pracovnePravo">
+          <h3>
+            <span lang="sk"> Pracovné právo </span>
+            <span lang="en"> Labour law </span>
+          </h3>
+
+          <img src="assets/medaile/pracovnePravo/pp2017oranzova.jpg" alt="pracovne pravo medaila">
+          <img src="assets/medaile/pracovnePravo/pp2018oranzova.jpg" alt="pracovne pravo medaila">
+
+          <p>
+            <span lang="sk">
+              Naši klienti sú prevažne aj významnými zamestnávateľmi na Slovensku a s tým
+              súvisí výrazný podiel poskytovania pracovnoprávneho poradenstva na celkovom
+              rozsahu našich služieb. Radíme klientom v rutinných záležitostiach vzniku,
+              zmeny a skončenia pracovnoprávneho vzťahu, ale takisto radíme aj pri riešení
+              pracovnoprávnych otázok v rámci projektových vecí. Tiež vzrastá poradenstvo
+              pri vyslaní zamestnancov do zahraničia a zo zahraničia.
+            </span>
+
+            <span lang="en">
+              Our clients are usually also significant Slovak employers and it results in a
+              considerable share of advising in the labour law issues on the total scope of our
+              services. We assist our clients in routine matters of establishment, amendment and
+              termination of employment relations but as well we advise in resolving the labour
+              law issues within the framework of large projects. We also advise in relation to the
+              posting the employees to and from abroad.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="pravoNehnutelnosti">
+          <h3>
+            <span lang="sk"> Právo nehnuteľností </span>
+            <span lang="en"> Real estate </span>
+          </h3>
+
+          <img src="assets/medaile/pravoNehnutelnosti/pm2014cierne.jpg" alt="pravo nehnutelnosti medaila">
+
+          <p>
+            <span lang="sk">
+              Pre našich klientov uskutočňujeme dôkladné právne previerky pri kúpe
+              nehnuteľností a  pripravujeme transakčné dokumenty. Zastupujeme klientov pri
+              projektoch výstavby (greenfield projekty) alebo prestavby nehnuteľností na
+              podnikateľské priestory (brownfield projekty), ako aj pri predaji a kúpe
+              realitných komplexov. Poskytujeme služby prenajímateľom výrobných a kancelárskych
+              priestorov pri tvorbe nájomných zmlúv a rovnako zastupujeme našich klientov,
+              ktorí sú významnými nájomcami nebytových priestorov, pri dohadovaní a správe
+              ich nájomných zmlúv
+            </span>
+
+            <span lang="en">
+              The law firm has advised clients in a number of real estate transactions,
+              in particular we have provided the legal due diligence of real estates to be acquired
+              and negotiated the acquisition of the land, drafted contractual documentation on
+              construction with suppliers and conducted negotiations with counterparts regarding
+              very complex acquisition projects or building and/or land leases. We represent clients
+              in administrative proceedings in matters related to the acquisition and construction
+              of real estate, the lease and sub-lease of non-residential premises, and building
+              administration. We also represent clients in proceedings related to imposition of
+              fines under administrative law.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="dusevneVlastnictvo">
+          <h3>
+            <span lang="sk"> Duševné vlastníctvo </span>
+            <span lang="en"> Intellectual property </span>
+          </h3>
+
+          <img src="assets/medaile/dusevneVlastnictvo/dv2017oranzova.jpg" alt="dusevne vlastnictvo medaila">
+          <img src="assets/medaile/dusevneVlastnictvo/dv2018oranzova.jpg" alt="dusevne vlastnictvo medaila">
+
+          <p>
+            <span lang="sk">
+              Dôležitou súčasťou našej práce je poskytovanie poradenstva klientom vo
+              veciach ochranných známok a zastupovanie pred Úradom priemyselného vlastníctva
+              Slovenskej republiky pri zápise  ochranných známok do registra. Naša kancelária
+              získala značné skúsenosti vo veci ochrany práv svojich klientov ako majiteľov
+              ochranných známok zapísaných ako slovenské či  medzinárodné známky,  vrátane
+              zastupovania klientov v súdnych sporoch aj ohľadom nekalej súťaže a náhrady škody.
+
+              Poskytujeme poradenstvo v oblasti práva duševného vlastníctva,
+              vrátane autorského práva a licencií a v oblasti priemyselného vlastníctva.
+              Zastupujeme klientov pri medzinárodných sporoch v tejto oblasti.
+            </span>
+
+            <span lang="en">
+              The law firm practices in the area of intellectual and industrial property law,
+              including resolution of various international cases and disputes from such domains.
+              In all those matters the law firm provides its clients with the legal analyses,
+              consultations, as well as representation in litigation. An important part of our practice
+              is providing counsel to clients in trademark matters and representation of clients
+              before the Industrial Property Office of the Slovak Republic in applications for
+              registration of the trademarks. The law firm has acquired an intensive experience in
+              defending the rights of its clients stemming from trade marks these clients have
+              registered either locally or internationally, such defence resulting often in the
+              court disputes on unfair competition and claiming the damages.
+            </span>
+          </p>
+        </div>
+
+        <div class="oblastPrava" id="riesenieSporov">
+          <h3>
+            <span lang="sk"> Riešenie sporov </span>
+            <span lang="en"> Dispute resolution </span>
+          </h3>
+
+          <p>
+            <span lang="sk">
+              Dôležitou oblasťou našej práce je zastupovanie klientov v rôznych typoch sporov.
+              Zastupujeme celý rad významných klientov pri mediácii a mimosúdnom riešení sporov,
+              ale tiež v súdnych, arbitrážnych, správnych a iných konaniach, keď mimosúdne pokusy o
+              riešenie sporu neboli úspešné. Nadobudli sme množstvo skúseností so zastupovaním klientov
+              v sporoch na všetkých stupňoch súdov, v konaniach pred rôznymi správnymi orgánmi, vrátane
+              preskúmania zákonnosti rozhodnutí správnych orgánov, ako aj v disciplinárnych konaniach v
+              rámci profesných komôr. Sporové veci, v ktorých advokáti našej kancelárie  klientov
+              zastupujú, zahŕňajú prípady od občianskoprávnych sporov alebo vymáhania významnejších
+              pohľadávok až po zložité preukazovanie existencie právnych vzťahov a ochranu záujmov
+              klientov v komplikovane konštruovaných právnych vzťahoch. Zastupujeme klientov v sporoch
+              o ochranu osobnosti a máme bohaté skúsenosti s obhajobou obvinených a zastupovaním
+              poškodených v náročných prípadoch ekonomickej trestnej činnosti.
+            </span>
+
+            <span lang="en">
+              Representation of clients in various types of disputes is an important part of our work.
+              We represent a number of clients within mediation and out of court settlement of disputes,
+              but also in court, arbitration, administrative and other proceedings, when alternate attempts
+              at dispute resolution are not fruitful. We have acquired considerable experience in
+              representation of clients in disputes on every level of the courts, in front of various
+              governmental authorities, including the review of legality of their decisions by courts,
+              and also in disciplinary proceedings within the professional chambers. Disputes in
+              which we represent our clients include matters ranging from civil disputes and
+              enforcement of bad debts to difficult cases requiring proof of the existence of
+              legal relations and justification of clients’ interests in complicated legal structures.
+              We represent clients in disputes on protection of personality. We have a lot of
+              experience with defense of accused persons and representation of aggrieved parties
+              in complicated economic criminal matters.
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="page" id="page5">
+      <div class="kontaktContainer">
+        <h1>
+          <span lang="sk"> Kontakt </span>
+          <span lang="en"> Contact </span>
+        </h1>
+
+        <h3>ČERNEJOVÁ & HRBEK, s.r.o. <br>
+            Kýčerského 7 <br>
+            811 05 Bratislava
+        </h3>
+
+        <div class="mapContainer">
+
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Kycerskeho%207&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
+            </div>
+            <style>
+            .mapouter {position:relative; text-align:right; height:100%; width:100%;}
+            .gmap_canvas {overflow:hidden; background:none !important; height:100%; width:100%;}
+            </style>
+          </div>
+
+        </div>
+
+        <h3>Tel: (421 2) 5244 4019, 5245 1525 <br>
+            Fax: (421 2) 5244 2650 <br>
+            Email: chplaw@chplaw.sk
+        </h3>
+
+        <h4>
+          <span lang="sk">
+            Spoločnosť ČERNEJOVÁ & HRBEK, s.r.o. je zapísaná v Obchodnom registri
+            Okresného súdu Bratislava I, oddiel: Sro, vložka č.51429/B
+          </span>
+
+          <span lang="en">
+            The company ČERNEJOVÁ & HRBEK, s.r.o. is registered in the Commercial Registry
+            of the District Court Bratislava I, Section: Sro, File No. 51429/B.
+          </span>
+        </h4>
+      </div>
+
+      <div class="paticka">
+        <p>Made by 3UN Group </p>
+        <a href="https://www.3un.eu">www.3un.eu</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mobigLudo" id="BLcernejova">
+      <div class="nadpisPanel">
+        <h3>Alena
+            ČERNEJOVÁ
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('cernejova')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/cernejova.jpg" class="profilovka" alt="cernejova foto">
+
+        <p>
+          <span lang="sk">
+            Alena Černejová vedie projekty v oblasti akvizícií a predajov podnikov a spoločností.
+            Ako vedúca tímu poskytovala poradenstvo zahraničným investorom pri vstupe na slovenský trh v súvislosti
+            s množstvom projektov a transakcií, vrátane akvizícií podnikov a spoločností, privatizácií,
+            reštrukturalizácií spoločností a skupín, významných greenfield projektov, ako aj projektov
+            nadobudnutia a správy nehnuteľností. Alena poskytuje poradenstvo a zastupuje klientov v
+            súvislosti s oznamovaním koncentrácií Protimonopolnému úradu Slovenskej republiky a v
+            iných konaniach pred Protimonopolným úradom Slovenskej republiky.
+            <br><br>
+            Alena absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+            V rokoch 1984 až 1995 pôsobila ako vedecký pracovník Ústavu štátu a práva
+            Slovenskej akadémie vied, v roku 1994 získala vedeckú hodnosť kandidáta právnych
+            vied (CSc.) na základe obhajoby práce z oblasti súťažného práva. V roku 1992 bola
+            zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+            V rokoch 1991 až 1995 sa Alena zúčastnila viacerých zahraničných
+            seminárov a stáží na prestížnych univerzitách a v renomovaných právnych
+            kanceláriách. V roku 1997 sa Alena stala partnerom advokátskej kancelárie,
+            ktorá sa premenovala na ČERNEJOVÁ & HRBEK.
+          </span>
+
+          <span lang="en">
+            Alena Černejová advises clients on projects of mergers and acquisitions, sale of businesses
+            and companies. As a team leader she has advised
+
+            foreign investors on their entry onto
+            the Slovak market in a number of projects and transactions, including acquisitions of
+            undertakings and companies, privatisations, restructuring of companies and groups,
+            major greenfield projects, as well as projects of acquisition and management of real
+            estates. She advises on and represents clients in notification of concentration to the
+            Antimonopoly Office of the Slovak Republic and in other proceedings before the Slovak
+            competition authority.
+            <br><br>
+            Alena received her law degree from the Law Faculty of Comenius University in
+            Bratislava in 1984. In the years 1984-1995 she worked as a research specialist in
+            the Institute of State and Law of the Slovak Academy of Sciences where she defended her
+            CSc (PhD equivalent) on competition law. In 1992 she was admitted to the Slovak
+            Bar Association. During the years 1991 – 1995 Alena participated in many seminars
+            and internships at prestigious universities and in renowned law firms abroad.
+            In 1997 Alena joined the law firm as a partner, and the law firm was renamed to
+            ČERNEJOVÁ & HRBEK.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLhrbek">
+      <div class="nadpisPanel">
+        <h3>Milan
+            HRBEK
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('hrbek')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/hrbek.jpg" class="profilovka" alt="hrbek foto">
+
+        <p>
+          <span lang="sk">
+            Milan Hrbek je zakladajúcim partnerom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+            Cenné skúsenosti nadobudol Milan zastupovaním klientov pri množstve transakcií a projektov,
+
+            vrátane transakcií s cennými
+            papiermi, akvizícií podnikov a spoločností, privatizácií, reštrukturalizácii dlhov spoločností
+            a projektov týkajúcich sa nehnuteľností. Milan zastupuje klientov v oblasti mimosúdneho
+            riešenia sporov a mediácie medzi sporovými stranami. Zároveň je vyhľadávaným odborníkom na
+            vedenie sporov vo všetkých typoch konaní, teda v súdnych, správnych a rozhodcovských konaniach,
+            ale aj v disciplinárnych konaniach v rámci profesných komôr. V týchto sporoch často ide o riešenie
+            závažných právnych otázok so zásadným významom pre smerovanie aplikačnej praxe v konkrétnych
+            právnych vzťahoch.
+            <br><br>
+            Milan absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1984.
+            Po skončení štúdia pracoval na Okresnej prokuratúre Bratislava II, v roku 1991 sa stal okresným
+            prokurátorom pre okres Bratislava II. V roku 1992 začal vykonávať súkromnú prax ako zakladajúci
+            partner advokátskej kancelárie, ktorá od roku 1997 pôsobí pod menom ČERNEJOVÁ & HRBEK.
+            <br><br>
+            Počas roku 2006 bol Milan členom Legislatívnej rady vlády Slovenskej republiky.
+            Jedno volebné obdobie (2004 – 2007) bol členom disciplinárneho senátu Najvyššieho súdu
+            Slovenskej republiky a v roku 2010 bol zvolený do disciplinárnej komisie Slovenskej advokátskej
+            komory a menovaný za predsedu disciplinárneho senátu.
+            <br><br>
+            Milan si postupne získal a upevnil reputáciu ako procesný právnik, ktorý zastupuje klientov
+            pri zložitých a závažných sporoch. O dôvere klientov v jeho schopnosti pri riešení sporov
+            svedčia aj jeho výnimočné hodnotenia nezávislými hodnotiteľmi v medzinárodných publikáciách.
+          </span>
+
+          <span lang="en">
+            Milan Hrbek is the founding partner of the Law Firm ČERNEJOVÁ & HRBEK. He has acquired
+            valuable experience in representing clients in many transactions and projects,
+
+            including
+            transactions with securities, acquisitions of undertakings and companies, privatisations,
+            restructuring of debts and projects related to real estates. Milan represents clients in
+            the out of court settlement of disputes and mediation between disputing parties. He is
+            highly sought after expert for leading the disputes in all types of proceedings – in the
+            court, administrative and arbitration proceedings, but also in disciplinary proceedings
+            in profession chambers. In these disputes there are very often resolved legal issues which
+            are highly relevant for further development of application practice in concrete legal
+            relations.
+            <br><br>
+            Milan received his law degree in 1984 from the Faculty of Law of the Comenius University in
+            Bratislava, Slovakia. After graduation he worked in the office of the district prosecutor
+            of Bratislava II and in 1991 he became the District Prosecutor for the district Bratislava II.
+            In 1992 he started a private practice as a founding partner of the law firm known since 1997
+            under the name ČERNEJOVÁ & HRBEK.
+            <br><br>
+            During 2006 Milan was a member of the Legislative Council of the Government of the
+            Slovak Republic. From 2004 to 2007 he was a member of the disciplinary senate of the
+            Supreme Court of the Slovak Republic and in 2010 he was elected into the disciplinary
+            committee of the Slovak Bar Association and appointed as the chairman of the disciplinary
+            senate.
+            <br><br>
+            Milan’s expertise and considerable experience in the area of litigation, including
+            high-profile disputes is highly regarded by clients in rankings prepared by independent
+            agencies and published in international publications.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLstavrovsky">
+      <div class="nadpisPanel">
+        <h3>Peter
+            STAVROVSKÝ
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('stavrovsky')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/stavrovsky.jpg" class="profilovka" alt="stavrovsky foto">
+
+        <p>
+          <span lang="sk">
+            Peter Stavrovský poskytuje poradenstvo klientom predovšetkým v oblasti nadobúdania,
+            prevodu a nájmu nehnuteľností,
+
+            viedol viacero významných greenfield a brownfield
+            projektov výstavby a rozširovania výrobných, logistických a servisno-administratívnych
+            centier, tiež viedol viacero projektov akvizícií slovenských spoločností investormi. Peter
+            sa intenzívne zaoberá tiež právom duševného vlastníctva, klientom poskytuje pravidelne
+            poradenstvo v oblasti autorského práva, práva IT či ochranných známok, vrátane registrácie
+            a ochrany ochranných známok, a zastupuje klientov aj v oblasti nekalosúťažného konania a v
+            sporoch v tejto oblasti. Peter tiež radí klientom pri vyhodnocovaní ich zmluvných ujednaní
+            ako dohôd potenciálne obmedzujúcich súťaž a zastupuje klientov v konaniach pred Protimonopolným
+            úradom Slovenskej republiky v tejto oblasti súťažného práva.
+            <br><br>
+            Peter absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1983.
+            V období rokov 1983 až 1986 pracoval na Okresnom súde v Bratislave ako súdny čakateľ, neskôr
+            ako sudca. V rokoch 1987 až 1995 pracoval ako právny špecialista na Právnom inštitúte Ministerstva
+            spravodlivosti, od roku 1993 bol riaditeľom úseku právnych informácií. V rokoch 1995 až 1997
+            pôsobil na Inštitúte pre aproximáciu práva pri Úrade vlády Slovenskej republiky ako zástupca
+            riaditeľa a neskôr ako riaditeľ. V roku 1997 sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK.
+            <br><br>
+            Peter je dlhoročným členom redakčnej rady časopisu Justičná revue a publikoval množstvo článkov
+            v tomto odbornom časopise. Peter je aj spoluautorom kapitoly venovanej Slovenskej republike v
+            publikácii World Trademark Review – Anti-counterfeiting 2010 (Globe Business Publishing Ltd., 2010).
+            V publikácii World Trademark Revue je dlhoročne hodnotený ako odporúčaný odborník v Slovenskej
+            republike pre oblasť práva duševného vlastníctva a ochranných známok.
+          </span>
+
+          <span lang="en">
+            Peter Stavrovský advises clients in relation to acquisition, transfer and lease of real
+            estates,
+
+            he has led major greenfield and brownfield projects of construction and extension
+            of manufacturing, logistics and administrative centers, and he also has led many acquisition
+            projects for foreign investors. Peter is the specialist in the intellectual property
+            law, he regularly advises clients on various issues of copyright, IT law, trademarks,
+            including the registration and protection of trademarks, and represents clients in
+            cases of unfair competition. Peter also advises clients on assessment of their
+            contractual arrangements as potential cartel agreements and represents them in the
+            related proceedings before the Antimonopoly Office of the Slovak Republic.
+            <br><br>
+            Peter received his law degree in 1983 from the Faculty of Law of Comenius University in
+            Bratislava, Slovakia. In the years 1983 – 1986 he worked at the District Court in Bratislava
+            as a court officer, later as a judge. In the years 1987 – 1995 he had been working as the
+            legal expert at the Law Institute of the Ministry of Justice, since 1993 as the Director
+            of the Section of Legal Information. In the years 1995 – 1997 Peter worked in the Institute
+            for Approximation of Law at the Office of the Government of the Slovak Republic as the
+            deputy director and later as the director of this Institute. In the year 1997 Peter joined
+            the Law Firm ČERNEJOVÁ & HRBEK and since 1999 he has been associated with ČERNEJOVÁ & HRBEK
+            as a partner.
+            <br><br>
+            Peter has been for many years a member of the editorial board of the journal Justičná
+            revue and he has published a number of articles in this professional journal. Peter
+            is a co-author of the Slovak chapter in the Globe Business Publishing Ltd. 2010
+            publication World Trademark Review – Anti-counterfeiting 2010. In the publication
+            World Trademark Revue, Peter is repeatedly ranked as „highly recommended” expert in
+            the Slovak Republic for IP law and trademarks.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLsinkovic">
+      <div class="nadpisPanel">
+        <h3>Ján
+            ŠINKOVIC
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('sinkovic')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/sinkovic.jpg" class="profilovka" alt="sinkovic foto">
+
+        <p>
+          <span lang="sk">
+            Ján Šinkovic poskytuje klientom poradenstvo predovšetkým v oblasti sporovej agendy,
+            no tak isto pri nadobudnutiach, prevodoch a prenájmoch nehnuteľností.
+
+            Ján poskytuje vysoko odborné poradenstvo a zastupuje slovenských ako aj
+            zahraničných klientov v mnohých závažných súdnych sporoch pred všeobecnými
+            súdmi Slovenskej republiky, rozhodcovskými súdmi, tak isto pred Ústavným súdom SR,
+            pred Európskym súdom pre ľudské práva v Štrasburgu, a v neposlednom rade pred
+            disciplinárnymi orgánmi, regulujúcimi činnosť rôznych právnických profesií (notárov, sudcov).
+            <br><br>
+            Ján absolvoval štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 1998.
+            V tom istom roku sa stal členom Advokátskej kancelárie ČERNEJOVÁ & HRBEK. Po tom, ako bol v
+            roku 2001 zapísaný do zoznamu advokátov Slovenskou advokátskou komorou, sa stal asociovaným
+            advokátom a v roku 2008 partnerom v Advokátskej kancelárii ČERNEJOVÁ & HRBEK. V roku 2016 bol
+            zapísaný do zoznamu rozhodcov Rozhodcovského súdu Slovenskej advokátskej komory.
+            <br><br>
+            Ján nadobudol značné skúsenosti v oblasti sporovej agendy pri uplatňovaní rôznych nárokov
+            na slovenských súdoch, týkajúcich sa občianskoprávnych vzťahov (napríklad práva zo zmeniek,
+            spotrebiteľské práva, ochrana osobnosti, spory súvisiace s nehnuteľnosťami, spory medzi
+            spoluvlastníkmi), obchodnoprávnych vzťahov (napríklad spory medzi spoločníkmi, medzi akcionármi,
+            medzi zmluvnými stranami, nároky na náhradu škody), sporov z verejného obstarávania, a mnoho
+            ďalších právnych vzťahov.
+            <br><br>
+            Ján je autorom kapitoly venovanej Slovenskej republike v publikácii Právna úprava nákladov
+            súdneho konania platná v rôznych štátoch sveta (Lovells, 2010). V súčasnosti pôsobí ako
+            člen pracovnej skupiny pre občianske právo v Slovenskej advokátskej komore.
+          </span>
+
+          <span lang="en">
+            Ján Šinkovic advises clients primarily in the area of dispute resolution, but
+            also in acquisitions, transfers and leases of real estates.
+
+            Ján provides a highly
+            professional assistance and represents Slovak as well as foreign clients in many
+            important court proceedings before general courts of the Slovak Republic, arbitration
+            courts, the Constitutional Court of the Slovak Republic, the European Court of Human Rights
+            in Strasbourg, and last but not least before the disciplinary bodies regulating activity of
+            various legal professions (notaries, judges).
+            <br><br>
+            Ján received his law degree from the Law Faculty of Comenius University in Bratislava, Slovakia in
+            1998. In the same year he joined the Law Firm ČERNEJOVÁ & HRBEK and after having been admitted
+            to the Slovak Bar Association in 2001, Ján has been associated with ČERNEJOVÁ & HRBEK, first as
+            an associated lawyer and since 2008 as a partner. In 2016 he was admitted to the Arbitration
+            Court of the Slovak Bar Association.
+            <br><br>
+            Ján has a considerable practice in litigation of various claims in Slovak courts,
+            including civil law matters (such as bank notes claims, consumer protection claims,
+            protection of personality, disputes related to real estate, co-ownership disputes),
+            commercial law matters (disputes between shareholders, between contracting parties,
+            claims for damages), public procurement disputes, and many others.
+            <br><br>
+            Ján is an author of the Slovak chapter in the Lovells 2010 publication At what cost?
+            A Lovells multi jurisdictional guide to litigation costs. Jan actively works also
+            as a member of the civil law working team in the Slovak Bar Association.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLbezekova">
+      <div class="nadpisPanel">
+        <h3>Jana
+            BEZEKOVÁ
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('bezekova')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/bezekova.jpg" class="profilovka" alt="bezekova foto">
+
+          <p>
+            <span lang="sk">
+              Jana Bezeková poskytuje klientom každodenné poradenstvo najmä v oblasti obchodného a
+              pracovného práva.
+
+              Ako členka tímu sa podieľala na viacerých projektoch a transakciách, vrátane právnych previerok,
+              akvizícií a fúzií spoločností a nájmu nehnuteľností. Venuje sa tiež právnemu poradenstvu v
+              oblasti reklamy, ochrany osobných údajov a ochrany spotrebiteľa.
+              <br><br>
+              Jana absolvovala štúdium na Právnickej fakulte Univerzity Komenského v Bratislave v roku 2002
+              a v tom istom roku nastúpila do Advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátska
+              koncipientka. V roku 2005 bola zapísaná do zoznamu advokátov Slovenskou advokátskou komorou.
+              Od roku 2006 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako asociovaná advokátka.
+              Medzinárodné skúsenosti získala počas stáže v roku 2009 v Advokátskej kancelárii Lachaud
+              Lepany Mandeville, Paríž, Francúzsko.
+              <br><br>
+              Jana je spoločne s ďalšími advokátkami pôsobiacimi v kancelárii spoluautorkou publikácie
+              Akciová spoločnosť, jej organizačné a finančné riadenie (Verlag Dashöfer, Bratislava, 2004, 2005).
+            </span>
+
+            <span lang="en">
+              Jana Bezeková advises clients especially in the field of commercial and labour law.
+
+              As the member of the team she has worked on many projects and transactions, including
+              due diligence, acquisitions and mergers and the lease of real estate. Jana advises
+              also in the field of advertising, personal data protection and consumer’s protection.
+              <br><br>
+              Jana received her law degree from the Law Faculty of Comenius University in Bratislava,
+              Slovakia in 2002 and in the same year she joined the Law Firm ČERNEJOVÁ & HRBEK as a
+              junior lawyer. In 2005 she was admitted to the Slovak Bar Association. Since 2006 Jana
+              has been associated with ČERNEJOVÁ & HRBEK as an associated lawyer. She acquired
+              international experience during the internship in 2009 in the Law Firm Lachaud Lepany
+              Mandeville, Paris, France.
+              <br><br>
+              Jana is, together with other members of the firm, a co-author of the publication
+              Joint Stock Company (Verlag Dashöfer, Bratislava, 2004, 2005).
+            </span>
+          </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLdziak">
+      <div class="nadpisPanel">
+        <h3>Juraj
+            DZIAK
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('dziak')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/dziak.jpg" class="profilovka" alt="dziak foto">
+
+        <p>
+          <span lang="sk">
+            Juraj Dziak poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva
+            a práva obchodných spoločností.
+
+            Okrem toho Juraj aktívne zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+            Podieľal sa ako člen tímu aj na viacerých projektoch.
+            <br><br>
+            Juraj absolvoval štúdium práva na Právnickej fakulte Trnavskej univerzity a v roku 2011
+            nastúpil do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+            Po vykonaní advokátskych skúšok a zápise do zoznamu advokátov Slovenskou advokátskou
+            komorou v roku 2015 pôsobí Juraj v advokátskej kancelárii ČERNEJOVÁ a HRBEK ako asociovaný advokát.
+          </span>
+
+          <span lang="en">
+            Juraj Dziak advises clients mainly in the field of commercial and civil law and
+            corporate matters.
+
+            Juraj also actively represents clients in the court proceedings
+            in the civil law and commercial law cases. He has also participated as a team member
+            on various projects.
+            <br><br>
+            Juraj Dziak received his law degree from the Law Faculty of Trnava University.
+            In 2011 he joined the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer. After passing
+            the advocate exams and after having been admitted to the Slovak Bar Association,
+            in 2015, Juraj has been associated with ČERNEJOVÁ & HRBEK as an associated lawyer.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLkapitulcinova">
+      <div class="nadpisPanel">
+        <h3>Tatiana
+            Kapitulčínová
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minmize tlacitko" onclick="picusek('kapitulcinova')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/kapitulcinova.jpg" class="profilovka" alt="kapitulcinova foto">
+
+        <p>
+          <span lang="sk">
+            Tatiana Kapitulčínová poskytuje klientom poradenstvo najmä v oblasti obchodného a civilného práva a
+            práva obchodných spoločností.
+
+            Okrem toho Tatiana zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+            Tatiana absolvovala štúdium práva na Právnickej fakulte Univerzity Komenského v Bratislave.
+            Počas štúdia Tatiana praxovala štyri roky v advokátskych kanceláriách ako právna asistentka a v
+            roku 2017 nastúpila do advokátskej kancelárie ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+          </span>
+
+          <span lang="en">
+            Tatiana Kapitulčínová advises clients mainly in the field of commercial and civil
+            law and corporate matters.
+
+            Tatiana also represents clients in the court proceedings
+            in the civil law and commercial law cases. Tatiana received her law degree from
+            the Law Faculty of Comenius University, Bratislava. During her studies Tatiana
+            practiced for four years at several law firms as a paralegal and in 2017 she
+            joined the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLzahradnik">
+      <div class="nadpisPanel">
+        <h3>Tomáš
+            Zahradnik
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('zahradnik')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/zahradnik.jpg" class="profilovka" alt="zahradnik foto">
+
+        <p>
+          <span lang="sk">
+            Tomáš Zahradnik poskytuje klientom právne poradenstvo primárne v oblasti obchodného a
+            civilného práva, venuje sa však aj trestno-právnej problematike.
+
+            Zastupuje klientov v občianskoprávnych a obchodnoprávnych súdnych sporoch.
+            Štúdium na Právnickej fakulte Univerzity Komenského v Bratislave ukončil v roku 2016 a
+            od roku 2017 pôsobí v Advokátskej kancelárii ČERNEJOVÁ & HRBEK ako advokátsky koncipient.
+          </span>
+
+          <span lang="en">
+            Tomáš Zahradnik advices clients primarily in the area of commercial and
+            civil law, however he also deals with criminal law cases.
+
+            He represents clients
+            in civil and commercial litigations. Tomáš graduated from the Comenius
+            University in Bratislava, Faculty of Law in 2016 and since 2017 he has been
+            working in the Law Firm ČERNEJOVÁ & HRBEK as a junior lawyer.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mobigLudo" id="BLvincze">
+      <div class="nadpisPanel">
+        <h3>Jana
+            VINCZE
+        </h3>
+
+        <div class="miniButtony">
+          <img src="assets/minimize.png" alt="minimize tlacitko" onclick="picusek('vincze')">
+        </div>
+      </div>
+
+      <div class="quiestce">
+        <img src="assets/vincze.jpg" class="profilovka" alt="vincze foto">
+
+        <p>
+          <span lang="sk">
+            Jana Vincze je vedúcou kancelárie a koordinuje všetky administratívne funkcie kancelárie.
+
+            Má na starosti riešenie všetkých otázok týkajúcich sa chodu kancelárie a je miestom prvého
+            kontaktu pre poskytovanie informácií o našej advokátskej kancelárii.
+            Jana nastúpila do Advokátskej
+            kancelárie ČERNEJOVÁ & HRBEK na pozíciu advokátskej tajomníčky po ukončení obchodnej akadémie v
+            roku 1997. Postupne pracovala na všetkých administratívnych postoch v kancelárii a od roku 2001
+            je vedúcou kancelárie a manažérom jej administratívnych zložiek. V roku 2009 Jana úspešne
+            absolvovala štúdium na Slovenskej technickej univerzite a bol jej udelený titul inžinier.
+          </span>
+
+          <span lang="en">
+            Jana Vincze is the office manager and coordinates all administrative functions
+            in the law firm.
+
+            She deals with any questions related to the office and is also
+            the first contact person for providing any information on the law firm. After
+            finishing the Business Academy in Bratislava in 1997, Jana joined the Law Firm
+            ČERNEJOVÁ & HRBEK as legal secretary. During years she has been consecutively
+            working on all administrative positions in the office. Since 2001 Jana has been
+            the office manager of ČERNEJOVÁ & HRBEK. In 2009 Jana graduated at the Slovak
+            Technical University and was honoured with the degree Engineer.
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
